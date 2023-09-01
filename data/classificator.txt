@@ -69,6 +69,7 @@ world  +
         food_court  -
         fountain  -
         fuel  -
+        gambling  -
         grave_yard  +
             christian  -
             {}
@@ -112,7 +113,9 @@ world  +
         pharmacy  -
         place_of_worship  +
             buddhist  -
-            christian  -
+            christian  +
+                mormon  -
+                {}
             hindu  -
             jewish  -
             muslim  -
@@ -625,6 +628,8 @@ world  +
         vineyard  -
         {}
     leisure  +
+        adult_gaming_centre  -
+        amusement_arcade  -
         beach_resort  -
         bowling_alley  -
         common  -

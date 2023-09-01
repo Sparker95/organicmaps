@@ -1325,6 +1325,12 @@
 
 "type.amenity.casino" = "Казино";
 
+"type.amenity.gambling" = "Азартні ігри";
+
+"type.leisure.adult_gaming_centre" = "Ігровий центр для дорослих";
+
+"type.leisure.amusement_arcade" = "Аркада";
+
 "type.amenity.charging_station" = "Зарядна станція";
 
 "type.amenity.charging_station.bicycle" = "Велосипедна зарядна станція";
@@ -1450,6 +1456,8 @@
 "type.amenity.place_of_worship.buddhist" = "Храм";
 
 "type.amenity.place_of_worship.christian" = "Церква";
+
+"type.amenity.place_of_worship.christian.mormon" = "Церква Ісуса Христа Святих Останніх Днів";
 
 "type.amenity.place_of_worship.hindu" = "Храм";
 

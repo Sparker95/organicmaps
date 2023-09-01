@@ -1325,6 +1325,12 @@
 
 "type.amenity.casino" = "Kasinoa";
 
+"type.amenity.gambling" = "Jokoa";
+
+"type.leisure.adult_gaming_centre" = "Helduen Joko Zentroa";
+
+"type.leisure.amusement_arcade" = "Arcade";
+
 "type.amenity.charging_station" = "Kargatzeko geltokia";
 
 "type.amenity.charging_station.bicycle" = "Bizikletak kargatzeko geltokia";
@@ -1450,6 +1456,8 @@
 "type.amenity.place_of_worship.buddhist" = "Tenplua";
 
 "type.amenity.place_of_worship.christian" = "Eliza";
+
+"type.amenity.place_of_worship.christian.mormon" = "Azken Eguneko Santuen Jesukristoren eliza";
 
 "type.amenity.place_of_worship.hindu" = "Tenplua";
 

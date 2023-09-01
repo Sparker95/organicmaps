@@ -715,6 +715,9 @@
 	<string name="type.amenity.car_sharing">Zdieľanie automobilov</string>
 	<string name="type.amenity.car_wash">Autoumývareň</string>
 	<string name="type.amenity.casino">Kasíno</string>
+	<string name="type.amenity.gambling">Hazardné hry</string>
+	<string name="type.leisure.adult_gaming_centre">Centrum hier pre dospelých</string>
+	<string name="type.leisure.amusement_arcade">Arcade</string>
 	<string name="type.amenity.charging_station">Dobíjacia stanica</string>
 	<string name="type.amenity.charging_station.bicycle">Nabíjacia stanica pre bicykle</string>
 	<string name="type.amenity.charging_station.motorcar">Nabíjacia stanica pre motorové vozidlá</string>
@@ -778,6 +781,7 @@
 	<string name="type.amenity.place_of_worship">Svätyňa</string>
 	<string name="type.amenity.place_of_worship.buddhist">Chrám</string>
 	<string name="type.amenity.place_of_worship.christian">Chrám</string>
+	<string name="type.amenity.place_of_worship.christian.mormon">Cirkev Ježiša Krista Svätých neskorších dní</string>
 	<string name="type.amenity.place_of_worship.hindu">Chrám</string>
 	<string name="type.amenity.place_of_worship.jewish">Synagóga</string>
 	<string name="type.amenity.place_of_worship.muslim">Mešita</string>

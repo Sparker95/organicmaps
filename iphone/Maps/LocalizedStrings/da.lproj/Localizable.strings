@@ -1325,6 +1325,12 @@
 
 "type.amenity.casino" = "Kasino";
 
+"type.amenity.gambling" = "Gambling";
+
+"type.leisure.adult_gaming_centre" = "Spillecenter for voksne";
+
+"type.leisure.amusement_arcade" = "Arcade";
+
 "type.amenity.charging_station" = "Ladestation";
 
 "type.amenity.charging_station.bicycle" = "Cykel ladestation";
@@ -1450,6 +1456,8 @@
 "type.amenity.place_of_worship.buddhist" = "Tempel";
 
 "type.amenity.place_of_worship.christian" = "Kirke";
+
+"type.amenity.place_of_worship.christian.mormon" = "Jesu Kristi Kirke af Sidste Dages Hellige";
 
 "type.amenity.place_of_worship.hindu" = "Tempel";
 

@@ -1566,3 +1566,7 @@ amenity|recycling|container
 *amenity|stripclub
 *tourism|aquarium
 *emergency|assembly_point
+*amenity|gambling
+*leisure|adult_gaming_centre
+*leisure|amusement_arcade
+*amenity|place_of_worship|christian|mormon

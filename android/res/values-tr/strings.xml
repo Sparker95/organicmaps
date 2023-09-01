@@ -783,6 +783,9 @@
 	<string name="type.amenity.car_sharing">Araç Paylaşımı</string>
 	<string name="type.amenity.car_wash">Araba Yıkama</string>
 	<string name="type.amenity.casino">Kumarhane</string>
+	<string name="type.amenity.gambling">Kumar</string>
+	<string name="type.leisure.adult_gaming_centre">Yetişkin Oyun Merkezi</string>
+	<string name="type.leisure.amusement_arcade">Oyun makinesi</string>
 	<string name="type.amenity.charging_station">Şarj İstasyonu</string>
 	<string name="type.amenity.charging_station.bicycle">Bisiklet Şarj İstasyonu</string>
 	<string name="type.amenity.charging_station.motorcar">Araç Şarj İstasyonu</string>
@@ -847,6 +850,7 @@
 	<string name="type.amenity.place_of_worship">İbadet Yerleri</string>
 	<string name="type.amenity.place_of_worship.buddhist">Tapınak</string>
 	<string name="type.amenity.place_of_worship.christian">Kilise</string>
+	<string name="type.amenity.place_of_worship.christian.mormon">İsa Mesih\'in Son Zaman Azizleri Kilisesi</string>
 	<string name="type.amenity.place_of_worship.hindu">Tapınak</string>
 	<string name="type.amenity.place_of_worship.jewish">Sinagog</string>
 	<string name="type.amenity.place_of_worship.muslim">Cami</string>

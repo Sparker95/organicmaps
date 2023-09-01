@@ -1325,6 +1325,12 @@
 
 "type.amenity.casino" = "Казино";
 
+"type.amenity.gambling" = "Играть в азартные игры";
+
+"type.leisure.adult_gaming_centre" = "Игровой центр для взрослых";
+
+"type.leisure.amusement_arcade" = "Аркада";
+
 "type.amenity.charging_station" = "Зарядная станция";
 
 "type.amenity.charging_station.bicycle" = "Станция зарядки велосипедов";
@@ -1450,6 +1456,8 @@
 "type.amenity.place_of_worship.buddhist" = "Храм";
 
 "type.amenity.place_of_worship.christian" = "Церковь";
+
+"type.amenity.place_of_worship.christian.mormon" = "Церковь Иисуса Христа Святых последних дней";
 
 "type.amenity.place_of_worship.hindu" = "Храм";
 

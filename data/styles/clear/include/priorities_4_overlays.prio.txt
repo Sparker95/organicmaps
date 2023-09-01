@@ -357,6 +357,7 @@ tourism-viewpoint                                   # icon z14- (also has captio
 
 amenity-place_of_worship-buddhist                   # icon z14- (also has caption(optional) z14-, area z16-)
 amenity-place_of_worship-christian                  # icon z14- (also has caption(optional) z14-, area z16-)
+amenity-place_of_worship-christian-mormon           # icon z14- (also has caption(optional) z14-, area z16-)
 amenity-place_of_worship-hindu                      # icon z14- (also has caption(optional) z14-, area z16-)
 amenity-place_of_worship-jewish                     # icon z14- (also has caption(optional) z14-, area z16-)
 amenity-place_of_worship-muslim                     # icon z14- (also has caption(optional) z14-, area z16-)
@@ -660,12 +661,12 @@ highway-secondary_link-tunnel                       # pathtext z16- (also has li
 === 3000
 
 highway-cycleway                                    # pathtext z15- (also has line z13-)
-highway-cycleway-bridge                             # pathtext z15- (also has line z13-)
+highway-cycleway-bridge                             # pathtext z15- (also has line z13-, line::bridgeblack z17-, line::bridgewhite z15-)
 highway-cycleway-permissive                         # pathtext z15- (also has line z13-)
 highway-cycleway-tunnel                             # pathtext z15- (also has line z13-)
 highway-footway                                     # pathtext z15- (also has line z15-)
 highway-footway-area                                # pathtext z15- (also has line z15-, area z14-)
-highway-footway-bridge                              # pathtext z15- (also has line z15-)
+highway-footway-bridge                              # pathtext z15- (also has line z15-, line::bridgeblack z17-, line::bridgewhite z15-)
 highway-footway-tunnel                              # pathtext z15- (also has line z15-, line::tunnelBackground z17-, line::tunnelCasing z17-)
 highway-tertiary_link                               # pathtext z18- (also has line z15-)
 highway-tertiary_link-bridge                        # pathtext z18- (also has line z15-, line::bridgeblack z15-, line::bridgewhite z15-)
@@ -688,7 +689,7 @@ tourism-information                                 # icon z16- (also has captio
 === 2850
 
 highway-bridleway                                   # pathtext z15- (also has line z14-)
-highway-bridleway-bridge                            # pathtext z15- (also has line z14-)
+highway-bridleway-bridge                            # pathtext z15- (also has line z14-, line::bridgeblack z17-, line::bridgewhite z15-)
 highway-bridleway-permissive                        # pathtext z15- (also has line z14-)
 highway-bridleway-tunnel                            # pathtext z15- (also has line z14-)
 highway-footway-alpine_hiking                       # pathtext z15- (also has line z14-)
@@ -701,7 +702,7 @@ highway-footway-permissive                          # pathtext z15- (also has li
 highway-path                                        # pathtext z15- (also has line z14-)
 highway-path-alpine_hiking                          # pathtext z15- (also has line z14-)
 highway-path-bicycle                                # pathtext z15- (also has line z14-)
-highway-path-bridge                                 # pathtext z15- (also has line z14-)
+highway-path-bridge                                 # pathtext z15- (also has line z14-, line::bridgeblack z17-, line::bridgewhite z15-)
 highway-path-demanding_alpine_hiking                # pathtext z15- (also has line z14-)
 highway-path-demanding_mountain_hiking              # pathtext z15- (also has line z14-)
 highway-path-difficult_alpine_hiking                # pathtext z15- (also has line z14-)
@@ -718,11 +719,11 @@ highway-service-driveway                            # pathtext z16- (also has li
 highway-service-parking_aisle                       # pathtext z16- (also has line z15-)
 highway-service-tunnel                              # pathtext z16- (also has line z15-)
 highway-steps                                       # pathtext z16- (also has line z15-)
-highway-steps-bridge                                # pathtext z16- (also has line z15-)
+highway-steps-bridge                                # pathtext z16- (also has line z15-, line::bridgeblack z17-, line::bridgewhite z15-)
 highway-steps-tunnel                                # pathtext z16- (also has line z15-, line::tunnelBackground z17-, line::tunnelCasing z17-)
 highway-track                                       # pathtext z15- (also has line z14-)
 highway-track-area                                  # pathtext z15- (also has line z14-)
-highway-track-bridge                                # pathtext z15- (also has line z14-)
+highway-track-bridge                                # pathtext z15- (also has line z14-, line::bridgeblack z17-, line::bridgewhite z15-)
 highway-track-grade1                                # pathtext z15- (also has line z14-)
 highway-track-grade2                                # pathtext z15- (also has line z14-)
 highway-track-grade3                                # pathtext z15- (also has line z14-)
@@ -1014,6 +1015,7 @@ sport-soccer                                        # icon z17- (also has captio
 
 amenity-casino                                      # icon z17- (also has caption(optional) z17-)
 amenity-childcare                                   # icon z17- (also has caption(optional) z17-)
+amenity-gambling                                    # icon z17- (also has caption(optional) z17-)
 craft-beekeeper                                     # icon z17- (also has caption(optional) z18-)
 craft-blacksmith                                    # icon z17- (also has caption(optional) z18-)
 craft-brewery                                       # icon z17- (also has caption(optional) z18-)
@@ -1030,6 +1032,8 @@ craft-sawmill                                       # icon z17- (also has captio
 craft-shoemaker                                     # icon z17- (also has caption(optional) z18-)
 craft-tailor                                        # icon z17- (also has caption(optional) z18-)
 historic-ruins                                      # icon z17- (also has caption(optional) z17-)
+leisure-adult_gaming_centre                         # icon z17- (also has caption(optional) z17-)
+leisure-amusement_arcade                            # icon z17- (also has caption(optional) z17-)
 leisure-playground                                  # icon z17- (also has caption(optional) z17-, area z16-)
 power-station                                       # icon z17- (also has caption(optional) z17-)
 === 1250
@@ -1170,7 +1174,7 @@ shop-wholesale                                      # icon z18- (also has captio
 
 amenity-bbq                                         # icon z18- (also has caption(optional) z18-)
 amenity-internet_cafe                               # icon z18- (also has caption(optional) z19-)
-amenity-public_bookcase                             # caption z19-
+amenity-public_bookcase                             # icon z18- (also has caption(optional) z18-)
 amenity-toilets                                     # icon z18- (also has caption(optional) z18-)
 craft-handicraft                                    # icon z18- (also has caption(optional) z18-)
 craft-hvac                                          # icon z18- (also has caption(optional) z18-)
@@ -1463,6 +1467,7 @@ amenity-parking_entrance-private                    # WARNING: no style defined 
 
 # amenity-place_of_worship-buddhist                 # caption(optional) z14- (also has icon z14-, area z16-)
 # amenity-place_of_worship-christian                # caption(optional) z14- (also has icon z14-, area z16-)
+# amenity-place_of_worship-christian-mormon         # caption(optional) z14- (also has icon z14-, area z16-)
 # amenity-place_of_worship-hindu                    # caption(optional) z14- (also has icon z14-, area z16-)
 # amenity-place_of_worship-jewish                   # caption(optional) z14- (also has icon z14-, area z16-)
 # amenity-place_of_worship-muslim                   # caption(optional) z14- (also has icon z14-, area z16-)
@@ -1923,6 +1928,7 @@ amenity-parking_entrance-private                    # WARNING: no style defined 
 
 # amenity-casino                                    # caption(optional) z17- (also has icon z17-)
 # amenity-childcare                                 # caption(optional) z17- (also has icon z17-)
+# amenity-gambling                                  # caption(optional) z17- (also has icon z17-)
 # craft-beekeeper                                   # caption(optional) z18- (also has icon z17-)
 # craft-blacksmith                                  # caption(optional) z18- (also has icon z17-)
 # craft-brewery                                     # caption(optional) z18- (also has icon z17-)
@@ -1939,6 +1945,8 @@ amenity-parking_entrance-private                    # WARNING: no style defined 
 # craft-shoemaker                                   # caption(optional) z18- (also has icon z17-)
 # craft-tailor                                      # caption(optional) z18- (also has icon z17-)
 # historic-ruins                                    # caption(optional) z17- (also has icon z17-)
+# leisure-adult_gaming_centre                       # caption(optional) z17- (also has icon z17-)
+# leisure-amusement_arcade                          # caption(optional) z17- (also has icon z17-)
 # leisure-playground                                # caption(optional) z17- (also has icon z17-, area z16-)
 # power-station                                     # caption(optional) z17- (also has icon z17-)
 # === -8750
@@ -2039,6 +2047,7 @@ amenity-parking_entrance-private                    # WARNING: no style defined 
 
 # amenity-bbq                                       # caption(optional) z18- (also has icon z18-)
 # amenity-internet_cafe                             # caption(optional) z19- (also has icon z18-)
+# amenity-public_bookcase                           # caption(optional) z18- (also has icon z18-)
 # amenity-toilets                                   # caption(optional) z18- (also has icon z18-)
 # craft-handicraft                                  # caption(optional) z18- (also has icon z18-)
 # craft-hvac                                        # caption(optional) z18- (also has icon z18-)

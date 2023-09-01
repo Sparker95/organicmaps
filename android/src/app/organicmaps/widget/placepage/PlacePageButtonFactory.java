@@ -41,6 +41,14 @@ public class PlacePageButtonFactory
         titleId = R.string.placepage_add_stop;
         iconId = R.drawable.ic_route_via;
         break;
+      case ROUTE_ORDER_UP:
+        titleId = R.string.placepage_order_up;
+        iconId = R.drawable.ic_sort;
+        break;
+      case ROUTE_ORDER_DOWN:
+        titleId = R.string.placepage_order_down;
+        iconId = R.drawable.ic_sort;
+        break;
       case ROUTE_REMOVE:
         titleId = R.string.placepage_remove_stop;
         iconId = R.drawable.ic_route_remove;

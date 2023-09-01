@@ -384,6 +384,14 @@ public class PlacePageController extends Fragment implements
         onRouteAddBtnClicked();
         break;
 
+      case ROUTE_ORDER_UP:
+        onRouteOrderUpClicked();
+        break;
+
+      case ROUTE_ORDER_DOWN:
+        onRouteOrderDownClicked();
+        break;
+
       case ROUTE_REMOVE:
         onRouteRemoveBtnClicked();
         break;
@@ -467,6 +475,18 @@ public class PlacePageController extends Fragment implements
       RoutingController.get().addStop(mMapObject);
   }
 
+  private void onRouteOrderUpClicked()
+  {
+    if (mMapObject != null)
+      RoutingController.get().orderStop(mMapObject, true);
+  }
+
+  private void onRouteOrderDownClicked()
+  {
+    if (mMapObject != null)
+      RoutingController.get().orderStop(mMapObject, false);
+  }
+
   private void onRouteRemoveBtnClicked()
   {
     if (mMapObject != null)
@@ -548,6 +568,8 @@ public class PlacePageController extends Fragment implements
     else if (RoutingController.get().isRoutePoint(mapObject))
     {
       buttons.add(PlacePageButtons.ButtonType.ROUTE_REMOVE);
+      buttons.add(PlacePageButtons.ButtonType.ROUTE_ORDER_DOWN);
+      buttons.add(PlacePageButtons.ButtonType.ROUTE_ORDER_UP);
     }
     else
     {

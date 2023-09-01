@@ -310,7 +310,8 @@ public class Framework
   public static native void nativeAddRoutePoint(String title, String subtitle,
                                                 @RoutePointInfo.RouteMarkType int markType,
                                                 int intermediateIndex, boolean isMyPosition,
-                                                double lat, double lon);
+                                                double lat, double lon,
+                                                boolean reorderIntermediate);
 
   public static native void nativeRemoveRoutePoint(@RoutePointInfo.RouteMarkType int markType,
                                                    int intermediateIndex);

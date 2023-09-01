@@ -1519,6 +1519,11 @@ public class MwmActivity extends BaseMwmFragmentActivity
   {
     closePlacePage();
   }
+  @Override
+  public void onReorderedStop()
+  {
+
+  }
 
   @Override
   public void onBuiltRoute()

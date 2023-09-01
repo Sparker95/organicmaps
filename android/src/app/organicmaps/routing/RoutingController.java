@@ -61,6 +61,7 @@ public class RoutingController implements Initializable<Void>
     default void onPlanningStarted() {}
     default void onAddedStop() {}
     default void onRemovedStop() {}
+    default void onReorderedStop() {}
     default void onResetToPlanningState() {}
     default void onBuiltRoute() {}
     default void onDrivingOptionsWarning() {}
@@ -456,6 +457,41 @@ public class RoutingController implements Initializable<Void>
     resetToPlanningStateIfNavigating();
   }
 
+  public void orderStop(@NonNull MapObject mapObject, Boolean orderUp)
+  {
+    RoutePointInfo info = mapObject.getRoutePointInfo();
+    if (info == null)
+      throw new AssertionError("A stop point must have the route point info!");
+
+    // Bail if we are trying to reorder start or finish, can't handle it yet
+    if (info.mMarkType != RoutePointInfo.ROUTE_MARK_INTERMEDIATE)
+      return;
+
+    //------------------------------------------
+    // Check if reordering makes sense
+    RouteMarkData[] points = Framework.nativeGetRoutePoints();
+    int nIntermediatePoints = points.length - 2;
+
+    // Bail if there is nothing to reorder
+    if (nIntermediatePoints <= 1)
+      return;
+
+    int newIndex = orderUp ? info.mIntermediateIndex + 1 : info.mIntermediateIndex - 1;
+
+    // Bail if index out of bounds
+    if (newIndex > nIntermediatePoints-1 || newIndex < 0)
+      return;
+
+    applyRemovingIntermediatePointsTransaction();
+    Framework.nativeRemoveRoutePoint(info.mMarkType, info.mIntermediateIndex);
+    addRoutePointIndex(info.mMarkType, mapObject, newIndex);
+    build();
+
+    if (mContainer != null)
+      mContainer.onReorderedStop();
+    resetToPlanningStateIfNavigating();
+  }
+
   /**
    * @return False if not navigating, true otherwise
    */
@@ -845,7 +881,16 @@ public class RoutingController implements Initializable<Void>
     Framework.nativeAddRoutePoint(description.first /* title */, description.second /* subtitle */,
                                   type, 0 /* intermediateIndex */,
                                   MapObject.isOfType(MapObject.MY_POSITION, point),
-                                  point.getLat(), point.getLon());
+                                  point.getLat(), point.getLon(), true);
+  }
+
+  private static void addRoutePointIndex(@RoutePointInfo.RouteMarkType int type, @NonNull MapObject point, int index)
+  {
+    Pair<String, String> description = getDescriptionForPoint(point);
+    Framework.nativeAddRoutePoint(description.first /* title */, description.second /* subtitle */,
+            type, index,
+            MapObject.isOfType(MapObject.MY_POSITION, point),
+            point.getLat(), point.getLon(), false);
   }
 
   @NonNull

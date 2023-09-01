@@ -817,7 +817,7 @@ bool RoutingManager::CouldAddIntermediatePoint() const
     < RoutePointsLayout::kMaxIntermediatePointsCount + 2;
 }
 
-void RoutingManager::AddRoutePoint(RouteMarkData && markData)
+void RoutingManager::AddRoutePoint(RouteMarkData && markData, bool reorderIntermediate)
 {
   ASSERT(m_bmManager != nullptr, ());
   RoutePointsLayout routePoints(*m_bmManager);
@@ -835,7 +835,9 @@ void RoutingManager::AddRoutePoint(RouteMarkData && markData)
 
   markData.m_isVisible = !markData.m_isMyPosition;
   routePoints.AddRoutePoint(std::move(markData));
-  ReorderIntermediatePoints();
+
+  if (reorderIntermediate)
+    ReorderIntermediatePoints();
 }
 
 void RoutingManager::RemoveRoutePoint(RouteMarkType type, size_t intermediateIndex)

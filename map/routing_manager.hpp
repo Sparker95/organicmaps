@@ -225,7 +225,7 @@ public:
   /// will not return previous data, only newer.
   void GenerateNotifications(std::vector<std::string> & notifications);
 
-  void AddRoutePoint(RouteMarkData && markData);
+  void AddRoutePoint(RouteMarkData && markData, bool reorderIntermediate = false);
   std::vector<RouteMarkData> GetRoutePoints() const;
   size_t GetRoutePointsCount() const;
   void RemoveRoutePoint(RouteMarkType type, size_t intermediateIndex = 0);

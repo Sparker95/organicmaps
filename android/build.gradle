@@ -131,8 +131,8 @@ def getCommitMessage() {
 
 def osName = System.properties['os.name'].toLowerCase()
 
-project.ext.appId = 'app.organicmaps'
-project.ext.appName = 'Organic Maps'
+project.ext.appId = 'app.organicmaps2'
+project.ext.appName = '2 Organic Maps'
 
 android {
   namespace 'app.organicmaps'

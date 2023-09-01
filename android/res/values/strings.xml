@@ -596,6 +596,8 @@
 	<string name="button_exit">Exit</string>
 	<string name="placepage_remove_stop">Remove</string>
 	<string name="placepage_add_stop">Add Stop</string>
+	<string name="placepage_order_up">Order Up</string>
+	<string name="placepage_order_down">Order Down</string>
 	<string name="dialog_error_storage_title">Storage access problem</string>
 	<string name="dialog_error_storage_message">External storage is not accessible. The SD Card may have been removed, damaged, or the file system is read-only. Please, check your SD Card or contact us at support\@organicmaps.app</string>
 	<string name="setting_emulate_bad_storage">Emulate bad storage</string>

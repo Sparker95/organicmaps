@@ -106,70 +106,70 @@ line|z14-[highway=trunk_link][bridge?]::bridgeblack,
 
 line|z7[highway=trunk],
 line|z7[highway=motorway]
-{width: 0.9;}
+{width: 2.7;}
 line|z8[highway=trunk],
 line|z8[highway=motorway]
-{width: 1.1;}
+{width: 3.3;}
 line|z9[highway=trunk],
 line|z9[highway=motorway]
-{width: 1.2;}
+{width: 3.6;}
 line|z10[highway=trunk],
 line|z10[highway=motorway]
-{width: 1.5;}
+{width: 4.5;}
 line|z10[highway=motorway_link],
 line|z10[highway=trunk_link]
-{width: 0.8;}
+{width: 2.4;}
 line|z11[highway=trunk],
 line|z11[highway=motorway]
-{width: 1.7;}
+{width: 5.1;}
 line|z11[highway=motorway_link],
 line|z11[highway=trunk_link]
-{width: 1.0;}
+{width: 3.0;}
 line|z12[highway=trunk],
 line|z12[highway=motorway]
-{width: 1.9;}
+{width: 5.7;}
 line|z12[highway=motorway_link],
 line|z12[highway=trunk_link]
-{width: 1.2;}
+{width: 3.6;}
 line|z13[highway=trunk],
 line|z13[highway=motorway],
-{width: 2.8;}
+{width: 8.4;}
 line|z13[highway=motorway_link],
 line|z13[highway=trunk_link]
-{width: 1.8;}
+{width: 5.4;}
 line|z14[highway=trunk],
 line|z14[highway=motorway],
-{width: 3.8;}
+{width: 11.4;}
 line|z14[highway=motorway_link],
 line|z14[highway=trunk_link]
-{width: 2.0;}
+{width: 6.0;}
 line|z15[highway=trunk],
 line|z15[highway=motorway],
-{width: 4.8;}
+{width: 14.4;}
 line|z15[highway=motorway_link],
 line|z15[highway=trunk_link]
-{width: 2.4;}
+{width: 7.2;}
 line|z16[highway=trunk],
 line|z16[highway=motorway],
-{width: 6;}
+{width: 18;}
 line|z16[highway=motorway_link],
 line|z16[highway=trunk_link]
-{width: 3;}
+{width: 9;}
 line|z17[highway=trunk],
 line|z17[highway=motorway],
-{width: 9;}
+{width: 27;}
 line|z17[highway=motorway_link],
 line|z17[highway=trunk_link]
-{width: 4.5;}
+{width: 14.5;}
 line|z18[highway=trunk],
 line|z18[highway=motorway],
-{width: 12;}
+{width: 36;}
 line|z18[highway=motorway_link],
 line|z18[highway=trunk_link]
-{width: 6;}
+{width: 18;}
 line|z19-[highway=trunk],
 line|z19-[highway=motorway],
-{width: 15;}
+{width: 45;}
 line|z19-[highway=motorway_link],
 line|z19-[highway=trunk_link]
 {width: 7.5;}
@@ -250,38 +250,38 @@ line|z14-[highway=primary_link][bridge?]::bridgeblack,
 /* 4.1 Primary 8-22 ZOOM */
 
 line|z8[highway=primary]
-{width: 0.9;}
+{width: 2.7;}
 line|z9[highway=primary]
-{width: 0.8;}
+{width: 2.4;}
 line|z10[highway=primary]
-{width: 1.2;}
+{width: 3.6;}
 line|z11[highway=primary],
 line|z11[highway=primary_link]
-{width: 1.5;}
+{width: 4.5;}
 line|z12[highway=primary],
 line|z12[highway=primary_link]
-{width: 1.7;}
+{width: 5.1;}
 line|z13[highway=primary],
 line|z13[highway=primary_link]
-{width: 2.4;}
+{width: 7.2;}
 line|z14[highway=primary],
 line|z14[highway=primary_link]
-{width: 3.2;}
+{width: 9.6;}
 line|z15[highway=primary],
 line|z15[highway=primary_link]
-{width: 4.2;}
+{width: 12.6;}
 line|z16[highway=primary],
 line|z16[highway=primary_link]
-{width: 4.8;}
+{width: 14.4;}
 line|z17[highway=primary],
 line|z17[highway=primary_link]
-{width: 7;}
+{width: 21;}
 line|z18[highway=primary],
 line|z18[highway=primary_link]
-{width: 10;}
+{width: 30;}
 line|z19-[highway=primary],
 line|z19-[highway=primary_link]
-{width: 13;}
+{width: 39;}
 
 /* 4.2 Primary tunnel 14-22 ZOOM */
 
@@ -332,32 +332,32 @@ line|z14-[highway=secondary_link][bridge?]::bridgeblack,
 /* 5.1 Secondary 10-22 ZOOM */
 
 line|z10[highway=secondary]
-{width: 1;}
+{width: 3;}
 line|z11[highway=secondary]
-{width: 1.3;}
+{width: 3.9;}
 line|z12[highway=secondary]
-{width: 1.6;}
+{width: 4.8;}
 line|z13[highway=secondary],
 line|z14[highway=secondary_link]
-{width: 2.2;}
+{width: 6.6;}
 line|z14[highway=secondary],
 line|z14[highway=secondary_link]
-{width: 3;}
+{width: 9;}
 line|z15[highway=secondary],
 line|z15[highway=secondary_link]
-{width: 4;}
+{width: 12;}
 line|z16[highway=secondary],
 line|z16[highway=secondary_link]
-{width: 4.8;}
+{width: 14.4;}
 line|z17[highway=secondary],
 line|z17[highway=secondary_link]
-{width: 7;}
+{width: 21;}
 line|z18[highway=secondary],
 line|z18[highway=secondary_link]
-{width: 10;}
+{width: 30;}
 line|z19-[highway=secondary],
 line|z19-[highway=secondary_link]
-{width: 13;}
+{width: 39;}
 
 /* 5.2 Secondary tunnel 16-22 ZOOM */
 
@@ -414,39 +414,39 @@ line|z14-[highway=tertiary_link][bridge?]::bridgeblack
 /* 6.1 Residential & Tertiary 11-22 ZOOM */
 
 line|z11[highway=tertiary]
-{width: 0.8;}
+{width: 1.6;}
 line|z12-13[highway=residential],
 line|z12-13[highway=tertiary]
-{width: 1.2;}
+{width: 2.4;}
 line|z14[highway=residential],
 line|z14[highway=tertiary],
 line|z15[highway=tertiary_link]
-{width: 1.8;}
+{width: 3.6;}
 line|z15[highway=residential],
 line|z15[highway=tertiary],
 line|z15[highway=residential_link],
 line|z15[highway=tertiary_link]
-{width: 3.2;}
+{width: 6.4;}
 line|z16[highway=residential],
 line|z16[highway=tertiary],
 line|z16[highway=residential_link],
 line|z16[highway=tertiary_link]
-{width: 4.4;}
+{width: 8.8;}
 line|z17[highway=residential],
 line|z17[highway=tertiary],
 line|z17[highway=residential_link],
 line|z17[highway=tertiary_link]
-{width: 6;}
+{width: 12;}
 line|z18[highway=residential],
 line|z18[highway=tertiary],
 line|z18[highway=residential_link],
 line|z18[highway=tertiary_link]
-{width: 9;}
+{width: 18;}
 line|z19-[highway=residential],
 line|z19-[highway=tertiary],
 line|z19-[highway=residential_link],
 line|z19-[highway=tertiary_link]
-{width: 12;}
+{width: 24;}
 
 /* 6.2 Residential & Tertiary tunnel 16-22 ZOOM */
 
@@ -505,39 +505,39 @@ line|z14-[highway=unclassified][bridge?]::bridgeblack,
 
 /* 7.1 Road, Street, Unclassified 12-22 ZOOM */
 line|z11[highway=unclassified]
-{width: 0.8;}
+{width: 1.2;}
 line|z12[highway=unclassified],
 line|z12[highway=road],
 line|z12[highway=living_street]
-{color: @residential;width: 1.2;}
+{color: @residential;width: 1.8;}
 line|z13[highway=unclassified],
 line|z13[highway=road],
 line|z13[highway=living_street]
-{width: 1.2;}
+{width: 1.8;}
 line|z14[highway=unclassified],
 line|z14[highway=road],
 line|z14[highway=living_street]
-{width: 1.8;}
+{width: 2.7;}
 line|z15[highway=unclassified],
 line|z15[highway=road],
 line|z15[highway=living_street]
-{width: 3;}
+{width: 4.5;}
 line|z16[highway=unclassified],
 line|z16[highway=road],
 line|z16[highway=living_street]
-{width: 4;}
+{width: 6;}
 line|z17[highway=unclassified],
 line|z17[highway=road],
 line|z17[highway=living_street]
-{width: 6;}
+{width: 9;}
 line|z18[highway=unclassified],
 line|z18[highway=road],
 line|z18[highway=living_street]
-{width: 9;}
+{width: 13.5;}
 line|z19-[highway=unclassified],
 line|z19-[highway=road],
 line|z19-[highway=living_street]
-{width: 12;}
+{width: 18;}
 
 /* 7.2 Road, Street, Unclassified tunnel 16-22 ZOOM */
 

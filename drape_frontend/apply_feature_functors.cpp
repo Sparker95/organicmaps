@@ -885,6 +885,10 @@ void ApplyLineFeatureGeometry::ProcessLineRule(Stylist::TRuleWrapper const & rul
     LineViewParams params;
     params.m_tileCenter = m_tileRect.Center();
     Extract(pLineRule, params);
+
+    // Increase all lines width
+    //params.m_width *= 3.0f;
+
     params.m_depth = rule.m_depth;
     params.m_minVisibleScale = m_minVisibleScale;
     params.m_rank = m_rank;

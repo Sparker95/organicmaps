@@ -67,7 +67,7 @@
 @sport: #D1CDA7;
 @parking: #F2F2BC;
 @military: #E53935;
-@farmland: #EBE4A5;
+@farmland: #E4DEAD;
 
 /*4.2 Aerodrome*/
 
@@ -100,7 +100,7 @@
 @primary_orange:  #FF8726;
 @primary_orange_medium: #FF9440;
 @primary_orange_light: #FFA14C;
-@secondary: #FFFFFF;
+@secondary: #FFB226;
 @residential: #FFFFFF;
 @unclassified: #FFFFFF;
 @pedestrian: #FFFFFF;

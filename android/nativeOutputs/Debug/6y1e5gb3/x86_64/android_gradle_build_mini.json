@@ -1,0 +1,337 @@
+{
+  "buildFiles": [
+    "D:\\Projects Git\\organicmaps\\3party\\agg\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\3party\\bsdiff-courgette\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\3party\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\3party\\expat\\expat\\cmake\\expat-config.cmake.in",
+    "D:\\Projects Git\\organicmaps\\3party\\expat\\expat\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\3party\\expat\\expat\\ConfigureChecks.cmake",
+    "D:\\Projects Git\\organicmaps\\3party\\expat\\expat\\expat_config.h.cmake",
+    "D:\\Projects Git\\organicmaps\\3party\\freetype\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\3party\\freetype\\freetype\\builds\\cmake\\FindBrotliDec.cmake",
+    "D:\\Projects Git\\organicmaps\\3party\\freetype\\freetype\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\3party\\gflags\\cmake\\config.cmake.in",
+    "D:\\Projects Git\\organicmaps\\3party\\gflags\\cmake\\utils.cmake",
+    "D:\\Projects Git\\organicmaps\\3party\\gflags\\cmake\\version.cmake.in",
+    "D:\\Projects Git\\organicmaps\\3party\\gflags\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\3party\\harfbuzz\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\3party\\icu\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\3party\\jansson\\jansson\\cmake\\CheckFunctionKeywords.cmake",
+    "D:\\Projects Git\\organicmaps\\3party\\jansson\\jansson\\cmake\\jansson_config.h.cmake",
+    "D:\\Projects Git\\organicmaps\\3party\\jansson\\jansson\\cmake\\jansson_private_config.h.cmake",
+    "D:\\Projects Git\\organicmaps\\3party\\jansson\\jansson\\cmake\\janssonConfig.cmake.in",
+    "D:\\Projects Git\\organicmaps\\3party\\jansson\\jansson\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\3party\\liboauthcpp\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\3party\\minizip\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\3party\\open-location-code\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\3party\\opening_hours\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\3party\\protobuf\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\3party\\pugixml\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\3party\\sdf_image\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\3party\\stb_image\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\3party\\succinct\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\3party\\vulkan_wrapper\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\android\\jni\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\base\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\cmake\\OmimConfig.cmake",
+    "D:\\Projects Git\\organicmaps\\cmake\\OmimHelpers.cmake",
+    "D:\\Projects Git\\organicmaps\\cmake\\OmimTesting.cmake",
+    "D:\\Projects Git\\organicmaps\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\coding\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\cppjansson\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\descriptions\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\drape\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\drape_frontend\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\editor\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\ge0\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\generator\\mwm_diff\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\generator\\mwm_diff\\mwm_diff_tool\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\geometry\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\indexer\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\kml\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\map\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\platform\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\routing\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\routing_common\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\search\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\shaders\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\storage\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\tracking\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\traffic\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\transit\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\spark\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+      "-C",
+      "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\Debug\\6y1e5gb3\\x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\spark\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+    "-C",
+    "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\Debug\\6y1e5gb3\\x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "drape_frontend::@1b37d6fbdc14c626c38a": {
+      "artifactName": "drape_frontend",
+      "abi": "x86_64",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\Debug\\6y1e5gb3\\x86_64\\libdrape_frontend.a",
+      "runtimeFiles": []
+    },
+    "protobuf::@5fdd12ad44f2b86368cb": {
+      "artifactName": "protobuf",
+      "abi": "x86_64",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\Debug\\6y1e5gb3\\x86_64\\libprotobuf.a",
+      "runtimeFiles": []
+    },
+    "freetype::@0f29e336c249c80ede9d": {
+      "artifactName": "freetype",
+      "abi": "x86_64",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\Debug\\6y1e5gb3\\x86_64\\libfreetyped.a",
+      "runtimeFiles": []
+    },
+    "icuuc::@8f7e0e3fcd7b0f7ba9cb": {
+      "artifactName": "icuuc",
+      "abi": "x86_64",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\Debug\\6y1e5gb3\\x86_64\\libicuuc.a",
+      "runtimeFiles": []
+    },
+    "geometry::@60d41218eef6b4657a56": {
+      "artifactName": "geometry",
+      "abi": "x86_64",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\Debug\\6y1e5gb3\\x86_64\\libgeometry.a",
+      "runtimeFiles": []
+    },
+    "shaders::@8132085bf3b90c3252db": {
+      "artifactName": "shaders",
+      "abi": "x86_64",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\Debug\\6y1e5gb3\\x86_64\\libshaders.a",
+      "runtimeFiles": []
+    },
+    "succinct::@1c6db56d7a868de08fac": {
+      "artifactName": "succinct",
+      "abi": "x86_64",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\Debug\\6y1e5gb3\\x86_64\\libsuccinct.a",
+      "runtimeFiles": []
+    },
+    "organicmaps::@c63f928fbae149c7160b": {
+      "artifactName": "organicmaps",
+      "abi": "x86_64",
+      "output": "D:\\Projects Git\\organicmaps\\android\\build\\intermediates\\cxx\\Debug\\6y1e5gb3\\obj\\x86_64\\liborganicmaps.so",
+      "runtimeFiles": []
+    },
+    "descriptions::@f9c978e907e47652bd69": {
+      "artifactName": "descriptions",
+      "abi": "x86_64",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\Debug\\6y1e5gb3\\x86_64\\libdescriptions.a",
+      "runtimeFiles": []
+    },
+    "ge0::@1da94f5d20bc972d6d32": {
+      "artifactName": "ge0",
+      "abi": "x86_64",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\Debug\\6y1e5gb3\\x86_64\\libge0.a",
+      "runtimeFiles": []
+    },
+    "drape::@2ed09f975a1abd35a830": {
+      "artifactName": "drape",
+      "abi": "x86_64",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\Debug\\6y1e5gb3\\x86_64\\libdrape.a",
+      "runtimeFiles": []
+    },
+    "oauthcpp::@0699ac01ed72c041e9e0": {
+      "artifactName": "oauthcpp",
+      "abi": "x86_64",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\Debug\\6y1e5gb3\\x86_64\\liboauthcpp.a",
+      "runtimeFiles": []
+    },
+    "kml::@0ced2ce8ef2b090005bf": {
+      "artifactName": "kml",
+      "abi": "x86_64",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\Debug\\6y1e5gb3\\x86_64\\libkml.a",
+      "runtimeFiles": []
+    },
+    "pymwm_diff::@3c06b0a8338fadd30b60": {
+      "artifactName": "pymwm_diff",
+      "abi": "x86_64",
+      "output": "D:\\Projects Git\\organicmaps\\android\\build\\intermediates\\cxx\\Debug\\6y1e5gb3\\obj\\x86_64\\pymwm_diff",
+      "runtimeFiles": []
+    },
+    "bsdiff::@9daa88e972815e1f384e": {
+      "artifactName": "bsdiff",
+      "abi": "x86_64",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\Debug\\6y1e5gb3\\x86_64\\libbsdiff.a",
+      "runtimeFiles": []
+    },
+    "mwm_diff::@4c3f3f2afe6452cda077": {
+      "artifactName": "mwm_diff",
+      "abi": "x86_64",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\Debug\\6y1e5gb3\\x86_64\\libmwm_diff.a",
+      "runtimeFiles": []
+    },
+    "jansson::@69444fecc8a3523fc1b7": {
+      "artifactName": "jansson",
+      "abi": "x86_64",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\Debug\\6y1e5gb3\\x86_64\\3party\\jansson\\jansson\\lib\\libjansson.a",
+      "runtimeFiles": []
+    },
+    "icui18n::@8f7e0e3fcd7b0f7ba9cb": {
+      "artifactName": "icui18n",
+      "abi": "x86_64",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\Debug\\6y1e5gb3\\x86_64\\libicui18n.a",
+      "runtimeFiles": []
+    },
+    "agg::@d1951b0442ceb992a719": {
+      "artifactName": "agg",
+      "abi": "x86_64",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\Debug\\6y1e5gb3\\x86_64\\libagg.a",
+      "runtimeFiles": []
+    },
+    "minizip::@2bcf17b52364be14ece1": {
+      "artifactName": "minizip",
+      "abi": "x86_64",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\Debug\\6y1e5gb3\\x86_64\\libminizip.a",
+      "runtimeFiles": []
+    },
+    "pugixml::@348c60c54c5a688813b1": {
+      "artifactName": "pugixml",
+      "abi": "x86_64",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\Debug\\6y1e5gb3\\x86_64\\libpugixml.a",
+      "runtimeFiles": []
+    },
+    "storage::@78361d3913668f02dc91": {
+      "artifactName": "storage",
+      "abi": "x86_64",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\Debug\\6y1e5gb3\\x86_64\\libstorage.a",
+      "runtimeFiles": []
+    },
+    "opening_hours::@9cd6d79fbeac61602137": {
+      "artifactName": "opening_hours",
+      "abi": "x86_64",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\Debug\\6y1e5gb3\\x86_64\\libopening_hours.a",
+      "runtimeFiles": []
+    },
+    "stb_image::@821502f4bc0e17a6b558": {
+      "artifactName": "stb_image",
+      "abi": "x86_64",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\Debug\\6y1e5gb3\\x86_64\\libstb_image.a",
+      "runtimeFiles": []
+    },
+    "gflags_nothreads_static::@1fc8ae345c4e6915cf1b": {
+      "artifactName": "gflags_nothreads_static",
+      "abi": "x86_64",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\Debug\\6y1e5gb3\\x86_64\\libgflags_nothreads_debug.a",
+      "runtimeFiles": []
+    },
+    "search::@b3e4e3481926c17d0075": {
+      "artifactName": "search",
+      "abi": "x86_64",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\Debug\\6y1e5gb3\\x86_64\\libsearch.a",
+      "runtimeFiles": []
+    },
+    "transit::@aadc42b695b31f1f2bfa": {
+      "artifactName": "transit",
+      "abi": "x86_64",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\Debug\\6y1e5gb3\\x86_64\\libtransit.a",
+      "runtimeFiles": []
+    },
+    "base::@4506b02e7a4fef989908": {
+      "artifactName": "base",
+      "abi": "x86_64",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\Debug\\6y1e5gb3\\x86_64\\libbase.a",
+      "runtimeFiles": []
+    },
+    "tracking::@318ea532d6241cdbd0d5": {
+      "artifactName": "tracking",
+      "abi": "x86_64",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\Debug\\6y1e5gb3\\x86_64\\libtracking.a",
+      "runtimeFiles": []
+    },
+    "cppjansson::@d77058f0fcd7a34f6d73": {
+      "artifactName": "cppjansson",
+      "abi": "x86_64",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\Debug\\6y1e5gb3\\x86_64\\libcppjansson.a",
+      "runtimeFiles": []
+    },
+    "routing::@2edf95b1ca8f5bcdf920": {
+      "artifactName": "routing",
+      "abi": "x86_64",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\Debug\\6y1e5gb3\\x86_64\\librouting.a",
+      "runtimeFiles": []
+    },
+    "traffic::@ef693e1ba9651bca7d18": {
+      "artifactName": "traffic",
+      "abi": "x86_64",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\Debug\\6y1e5gb3\\x86_64\\libtraffic.a",
+      "runtimeFiles": []
+    },
+    "indexer::@eae5087a5c346f531194": {
+      "artifactName": "indexer",
+      "abi": "x86_64",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\Debug\\6y1e5gb3\\x86_64\\libindexer.a",
+      "runtimeFiles": []
+    },
+    "map::@afb660f44a3db5ed153e": {
+      "artifactName": "map",
+      "abi": "x86_64",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\Debug\\6y1e5gb3\\x86_64\\libmap.a",
+      "runtimeFiles": []
+    },
+    "openlocationcode::@fc2b449f292b0ea32607": {
+      "artifactName": "openlocationcode",
+      "abi": "x86_64",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\Debug\\6y1e5gb3\\x86_64\\libopenlocationcode.a",
+      "runtimeFiles": []
+    },
+    "platform::@06522778d3acbe1b37c9": {
+      "artifactName": "platform",
+      "abi": "x86_64",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\Debug\\6y1e5gb3\\x86_64\\libplatform.a",
+      "runtimeFiles": []
+    },
+    "sdf_image::@00066329211b93b2f422": {
+      "artifactName": "sdf_image",
+      "abi": "x86_64",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\Debug\\6y1e5gb3\\x86_64\\libsdf_image.a",
+      "runtimeFiles": []
+    },
+    "editor::@ed37844f285895dce70e": {
+      "artifactName": "editor",
+      "abi": "x86_64",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\Debug\\6y1e5gb3\\x86_64\\libeditor.a",
+      "runtimeFiles": []
+    },
+    "expat::@dc85a0b6f66c39b32454": {
+      "artifactName": "expat",
+      "abi": "x86_64",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\Debug\\6y1e5gb3\\x86_64\\libexpat.a",
+      "runtimeFiles": []
+    },
+    "vulkan_wrapper::@653f93dd178152ddc44a": {
+      "artifactName": "vulkan_wrapper",
+      "abi": "x86_64",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\Debug\\6y1e5gb3\\x86_64\\libvulkan_wrapper.a",
+      "runtimeFiles": []
+    },
+    "harfbuzz::@56d4677668c020a6400c": {
+      "artifactName": "harfbuzz",
+      "abi": "x86_64",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\Debug\\6y1e5gb3\\x86_64\\libharfbuzz.a",
+      "runtimeFiles": []
+    },
+    "coding::@60bcc26dbc144f002396": {
+      "artifactName": "coding",
+      "abi": "x86_64",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\Debug\\6y1e5gb3\\x86_64\\libcoding.a",
+      "runtimeFiles": []
+    },
+    "routing_common::@2d2723bc4bea211234de": {
+      "artifactName": "routing_common",
+      "abi": "x86_64",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\Debug\\6y1e5gb3\\x86_64\\librouting_common.a",
+      "runtimeFiles": []
+    }
+  }
+}

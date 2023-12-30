@@ -1,0 +1,790 @@
+The target system is: Android - 1 - armv7-a
+The host system is: Windows - 10.0.19045 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe 
+Build flags: -g;-DANDROID;-fdata-sections;-ffunction-sections;-funwind-tables;-fstack-protector-strong;-no-canonical-prefixes;-D_FORTIFY_SOURCE=2;-march=armv7-a;-mthumb;-Wformat;-Werror=format-security;-fno-function-sections;-fno-data-sections;-Wno-extern-c-compat
+Id flags: -c;--target=armv7-none-linux-androideabi21 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is Clang, found in "D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/armeabi-v7a/CMakeFiles/3.22.1-g37088a8-dirty/CompilerIdC/CMakeCCompilerId.o"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe 
+Build flags: -g;-DANDROID;-fdata-sections;-ffunction-sections;-funwind-tables;-fstack-protector-strong;-no-canonical-prefixes;-D_FORTIFY_SOURCE=2;-march=armv7-a;-mthumb;-Wformat;-Werror=format-security;;-fexceptions;-frtti
+Id flags: -c;--target=armv7-none-linux-androideabi21 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+
+The CXX compiler identification is Clang, found in "D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/armeabi-v7a/CMakeFiles/3.22.1-g37088a8-dirty/CompilerIdCXX/CMakeCXXCompilerId.o"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\spark\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_6f458 && [1/2] Building C object CMakeFiles/cmTC_6f458.dir/CMakeCCompilerABI.c.o
+Android (9352603, based on r450784d1) clang version 14.0.7 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)
+Target: armv7-none-linux-android21
+Thread model: posix
+InstalledDir: C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/bin
+ (in-process)
+ "C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe" -cc1 -triple thumbv7-none-linux-android21 -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=1 -target-cpu generic -target-feature +soft-float-abi -target-feature +vfp2 -target-feature +vfp2sp -target-feature +vfp3 -target-feature +vfp3d16 -target-feature +vfp3d16sp -target-feature +vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature +fp64 -target-feature +d32 -target-feature +neon -target-feature -sha2 -target-feature -aes -target-feature -fp16fml -target-abi aapcs-linux -mfloat-abi soft -fallow-half-arguments-and-returns -mllvm -treat-scalable-fixed-error-as-warning -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -v "-fcoverage-compilation-dir=D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/armeabi-v7a/CMakeFiles/CMakeTmp" -resource-dir C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.7 -dependency-file "CMakeFiles\\cmTC_6f458.dir\\CMakeCCompilerABI.c.o.d" -MT CMakeFiles/cmTC_6f458.dir/CMakeCCompilerABI.c.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot -internal-isystem C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.7/include -internal-isystem C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include -internal-externc-isystem C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/arm-linux-androideabi -internal-externc-isystem C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include -internal-externc-isystem C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include -Wformat -Wno-extern-c-compat "-fdebug-compilation-dir=D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/armeabi-v7a/CMakeFiles/CMakeTmp" -ferror-limit 19 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_6f458.dir/CMakeCCompilerABI.c.o -x c C:/Users/spark/AppData/Local/Android/Sdk/cmake/3.22.1/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+clang -cc1 version 14.0.7 based upon LLVM 14.0.7git default target x86_64-w64-windows-gnu
+ignoring nonexistent directory "C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.7/include
+ C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include
+ C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/arm-linux-androideabi
+ C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include
+End of search list.
+[2/2] Linking C executable cmTC_6f458
+Android (9352603, based on r450784d1) clang version 14.0.7 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)
+Target: armv7-none-linux-android21
+Thread model: posix
+InstalledDir: C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/bin
+ "C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/bin/ld" --sysroot=C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot -pie -EL --warn-shared-textrel -z now -z relro -z max-page-size=4096 -X --hash-style=both --enable-new-dtags --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_6f458 C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/21/crtbegin_dynamic.o -LC:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.7/lib/linux/arm -LC:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/21 -LC:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi -LC:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/../lib -LC:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --fatal-warnings --no-undefined CMakeFiles/cmTC_6f458.dir/CMakeCCompilerABI.c.o C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.7/lib/linux/libclang_rt.builtins-arm-android.a -l:libunwind.a -ldl -lc C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.7/lib/linux/libclang_rt.builtins-arm-android.a -l:libunwind.a -ldl C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/21/crtend_android.o
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.7/include]
+    add: [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include]
+    add: [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/arm-linux-androideabi]
+    add: [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include]
+  end of search list found
+  collapse include dir [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.7/include] ==> [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.7/include]
+  collapse include dir [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include] ==> [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include]
+  collapse include dir [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/arm-linux-androideabi] ==> [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/arm-linux-androideabi]
+  collapse include dir [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include] ==> [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include]
+  implicit include dirs: [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.7/include;C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include;C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/arm-linux-androideabi;C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.lld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/armeabi-v7a/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):C:\Users\spark\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_6f458 && [1/2] Building C object CMakeFiles/cmTC_6f458.dir/CMakeCCompilerABI.c.o]
+  ignore line: [Android (9352603  based on r450784d1) clang version 14.0.7 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)]
+  ignore line: [Target: armv7-none-linux-android21]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/bin]
+  ignore line: [ (in-process)]
+  ignore line: [ "C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe" -cc1 -triple thumbv7-none-linux-android21 -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=1 -target-cpu generic -target-feature +soft-float-abi -target-feature +vfp2 -target-feature +vfp2sp -target-feature +vfp3 -target-feature +vfp3d16 -target-feature +vfp3d16sp -target-feature +vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature +fp64 -target-feature +d32 -target-feature +neon -target-feature -sha2 -target-feature -aes -target-feature -fp16fml -target-abi aapcs-linux -mfloat-abi soft -fallow-half-arguments-and-returns -mllvm -treat-scalable-fixed-error-as-warning -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -v "-fcoverage-compilation-dir=D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/armeabi-v7a/CMakeFiles/CMakeTmp" -resource-dir C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.7 -dependency-file "CMakeFiles\\cmTC_6f458.dir\\CMakeCCompilerABI.c.o.d" -MT CMakeFiles/cmTC_6f458.dir/CMakeCCompilerABI.c.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot -internal-isystem C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.7/include -internal-isystem C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include -internal-externc-isystem C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/arm-linux-androideabi -internal-externc-isystem C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include -internal-externc-isystem C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include -Wformat -Wno-extern-c-compat "-fdebug-compilation-dir=D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/armeabi-v7a/CMakeFiles/CMakeTmp" -ferror-limit 19 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_6f458.dir/CMakeCCompilerABI.c.o -x c C:/Users/spark/AppData/Local/Android/Sdk/cmake/3.22.1/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 14.0.7 based upon LLVM 14.0.7git default target x86_64-w64-windows-gnu]
+  ignore line: [ignoring nonexistent directory "C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.7/include]
+  ignore line: [ C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include]
+  ignore line: [ C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/arm-linux-androideabi]
+  ignore line: [ C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [[2/2] Linking C executable cmTC_6f458]
+  ignore line: [Android (9352603  based on r450784d1) clang version 14.0.7 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)]
+  ignore line: [Target: armv7-none-linux-android21]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/bin]
+  link line: [ "C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/bin/ld" --sysroot=C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot -pie -EL --warn-shared-textrel -z now -z relro -z max-page-size=4096 -X --hash-style=both --enable-new-dtags --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_6f458 C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/21/crtbegin_dynamic.o -LC:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.7/lib/linux/arm -LC:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/21 -LC:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi -LC:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/../lib -LC:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --fatal-warnings --no-undefined CMakeFiles/cmTC_6f458.dir/CMakeCCompilerABI.c.o C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.7/lib/linux/libclang_rt.builtins-arm-android.a -l:libunwind.a -ldl -lc C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.7/lib/linux/libclang_rt.builtins-arm-android.a -l:libunwind.a -ldl C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/21/crtend_android.o]
+    arg [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/bin/ld] ==> ignore
+    arg [--sysroot=C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-EL] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-zmax-page-size=4096] ==> ignore
+    arg [-X] ==> ignore
+    arg [--hash-style=both] ==> ignore
+    arg [--enable-new-dtags] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_6f458] ==> ignore
+    arg [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/21/crtbegin_dynamic.o] ==> obj [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/21/crtbegin_dynamic.o]
+    arg [-LC:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.7/lib/linux/arm] ==> dir [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.7/lib/linux/arm]
+    arg [-LC:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/21] ==> dir [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/21]
+    arg [-LC:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi] ==> dir [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi]
+    arg [-LC:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/../lib] ==> dir [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/../lib]
+    arg [-LC:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib] ==> dir [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
+    arg [--build-id=sha1] ==> ignore
+    arg [--no-rosegment] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [--no-undefined] ==> ignore
+    arg [CMakeFiles/cmTC_6f458.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.7/lib/linux/libclang_rt.builtins-arm-android.a] ==> lib [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.7/lib/linux/libclang_rt.builtins-arm-android.a]
+    arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+    arg [-ldl] ==> lib [dl]
+    arg [-lc] ==> lib [c]
+    arg [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.7/lib/linux/libclang_rt.builtins-arm-android.a] ==> lib [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.7/lib/linux/libclang_rt.builtins-arm-android.a]
+    arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+    arg [-ldl] ==> lib [dl]
+    arg [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/21/crtend_android.o] ==> obj [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/21/crtend_android.o]
+  remove lib [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.7/lib/linux/libclang_rt.builtins-arm-android.a]
+  remove lib [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.7/lib/linux/libclang_rt.builtins-arm-android.a]
+  collapse library dir [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.7/lib/linux/arm] ==> [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.7/lib/linux/arm]
+  collapse library dir [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/21] ==> [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/21]
+  collapse library dir [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi] ==> [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi]
+  collapse library dir [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/../lib] ==> [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
+  collapse library dir [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib] ==> [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
+  implicit libs: [-l:libunwind.a;dl;c;-l:libunwind.a;dl]
+  implicit objs: [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/21/crtbegin_dynamic.o;C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/21/crtend_android.o]
+  implicit dirs: [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.7/lib/linux/arm;C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/21;C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi;C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\spark\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_3687c && [1/2] Building CXX object CMakeFiles/cmTC_3687c.dir/CMakeCXXCompilerABI.cpp.o
+Android (9352603, based on r450784d1) clang version 14.0.7 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)
+Target: armv7-none-linux-android21
+Thread model: posix
+InstalledDir: C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/bin
+ (in-process)
+ "C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe" -cc1 -triple thumbv7-none-linux-android21 -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=1 -target-cpu generic -target-feature +soft-float-abi -target-feature +vfp2 -target-feature +vfp2sp -target-feature +vfp3 -target-feature +vfp3d16 -target-feature +vfp3d16sp -target-feature +vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature +fp64 -target-feature +d32 -target-feature +neon -target-feature -sha2 -target-feature -aes -target-feature -fp16fml -target-abi aapcs-linux -mfloat-abi soft -fallow-half-arguments-and-returns -mllvm -treat-scalable-fixed-error-as-warning -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections "-fcoverage-compilation-dir=D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/armeabi-v7a/CMakeFiles/CMakeTmp" -resource-dir C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.7 -dependency-file "CMakeFiles\\cmTC_3687c.dir\\CMakeCXXCompilerABI.cpp.o.d" -MT CMakeFiles/cmTC_3687c.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot -internal-isystem C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1 -internal-isystem C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.7/include -internal-isystem C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include -internal-externc-isystem C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/arm-linux-androideabi -internal-externc-isystem C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include -internal-externc-isystem C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include -Wformat -fdeprecated-macro "-fdebug-compilation-dir=D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/armeabi-v7a/CMakeFiles/CMakeTmp" -ferror-limit 19 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_3687c.dir/CMakeCXXCompilerABI.cpp.o -x c++ C:/Users/spark/AppData/Local/Android/Sdk/cmake/3.22.1/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 14.0.7 based upon LLVM 14.0.7git default target x86_64-w64-windows-gnu
+ignoring nonexistent directory "C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1
+ C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.7/include
+ C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include
+ C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/arm-linux-androideabi
+ C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include
+End of search list.
+[2/2] Linking CXX executable cmTC_3687c
+Android (9352603, based on r450784d1) clang version 14.0.7 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)
+Target: armv7-none-linux-android21
+Thread model: posix
+InstalledDir: C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/bin
+ "C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/bin/ld" --sysroot=C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot -pie -EL --warn-shared-textrel -z now -z relro -z max-page-size=4096 -X --hash-style=both --enable-new-dtags --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_3687c C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/21/crtbegin_dynamic.o -LC:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.7/lib/linux/arm -LC:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/21 -LC:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi -LC:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/../lib -LC:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --fatal-warnings --no-undefined CMakeFiles/cmTC_3687c.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lc++ -Bdynamic -lm C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.7/lib/linux/libclang_rt.builtins-arm-android.a -l:libunwind.a -ldl -lc C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.7/lib/linux/libclang_rt.builtins-arm-android.a -l:libunwind.a -ldl C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/21/crtend_android.o
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1]
+    add: [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.7/include]
+    add: [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include]
+    add: [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/arm-linux-androideabi]
+    add: [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include]
+  end of search list found
+  collapse include dir [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1] ==> [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1]
+  collapse include dir [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.7/include] ==> [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.7/include]
+  collapse include dir [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include] ==> [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include]
+  collapse include dir [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/arm-linux-androideabi] ==> [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/arm-linux-androideabi]
+  collapse include dir [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include] ==> [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include]
+  implicit include dirs: [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1;C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.7/include;C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include;C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/arm-linux-androideabi;C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.lld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/armeabi-v7a/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):C:\Users\spark\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_3687c && [1/2] Building CXX object CMakeFiles/cmTC_3687c.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [Android (9352603  based on r450784d1) clang version 14.0.7 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)]
+  ignore line: [Target: armv7-none-linux-android21]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/bin]
+  ignore line: [ (in-process)]
+  ignore line: [ "C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe" -cc1 -triple thumbv7-none-linux-android21 -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=1 -target-cpu generic -target-feature +soft-float-abi -target-feature +vfp2 -target-feature +vfp2sp -target-feature +vfp3 -target-feature +vfp3d16 -target-feature +vfp3d16sp -target-feature +vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature +fp64 -target-feature +d32 -target-feature +neon -target-feature -sha2 -target-feature -aes -target-feature -fp16fml -target-abi aapcs-linux -mfloat-abi soft -fallow-half-arguments-and-returns -mllvm -treat-scalable-fixed-error-as-warning -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections "-fcoverage-compilation-dir=D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/armeabi-v7a/CMakeFiles/CMakeTmp" -resource-dir C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.7 -dependency-file "CMakeFiles\\cmTC_3687c.dir\\CMakeCXXCompilerABI.cpp.o.d" -MT CMakeFiles/cmTC_3687c.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot -internal-isystem C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1 -internal-isystem C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.7/include -internal-isystem C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include -internal-externc-isystem C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/arm-linux-androideabi -internal-externc-isystem C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include -internal-externc-isystem C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include -Wformat -fdeprecated-macro "-fdebug-compilation-dir=D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/armeabi-v7a/CMakeFiles/CMakeTmp" -ferror-limit 19 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_3687c.dir/CMakeCXXCompilerABI.cpp.o -x c++ C:/Users/spark/AppData/Local/Android/Sdk/cmake/3.22.1/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang -cc1 version 14.0.7 based upon LLVM 14.0.7git default target x86_64-w64-windows-gnu]
+  ignore line: [ignoring nonexistent directory "C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1]
+  ignore line: [ C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.7/include]
+  ignore line: [ C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include]
+  ignore line: [ C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/arm-linux-androideabi]
+  ignore line: [ C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [[2/2] Linking CXX executable cmTC_3687c]
+  ignore line: [Android (9352603  based on r450784d1) clang version 14.0.7 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)]
+  ignore line: [Target: armv7-none-linux-android21]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/bin]
+  link line: [ "C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/bin/ld" --sysroot=C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot -pie -EL --warn-shared-textrel -z now -z relro -z max-page-size=4096 -X --hash-style=both --enable-new-dtags --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_3687c C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/21/crtbegin_dynamic.o -LC:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.7/lib/linux/arm -LC:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/21 -LC:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi -LC:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/../lib -LC:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --fatal-warnings --no-undefined CMakeFiles/cmTC_3687c.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lc++ -Bdynamic -lm C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.7/lib/linux/libclang_rt.builtins-arm-android.a -l:libunwind.a -ldl -lc C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.7/lib/linux/libclang_rt.builtins-arm-android.a -l:libunwind.a -ldl C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/21/crtend_android.o]
+    arg [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/bin/ld] ==> ignore
+    arg [--sysroot=C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-EL] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-zmax-page-size=4096] ==> ignore
+    arg [-X] ==> ignore
+    arg [--hash-style=both] ==> ignore
+    arg [--enable-new-dtags] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_3687c] ==> ignore
+    arg [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/21/crtbegin_dynamic.o] ==> obj [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/21/crtbegin_dynamic.o]
+    arg [-LC:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.7/lib/linux/arm] ==> dir [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.7/lib/linux/arm]
+    arg [-LC:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/21] ==> dir [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/21]
+    arg [-LC:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi] ==> dir [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi]
+    arg [-LC:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/../lib] ==> dir [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/../lib]
+    arg [-LC:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib] ==> dir [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
+    arg [--build-id=sha1] ==> ignore
+    arg [--no-rosegment] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [--no-undefined] ==> ignore
+    arg [CMakeFiles/cmTC_3687c.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-Bstatic] ==> search static
+    arg [-lc++] ==> lib [c++]
+    arg [-Bdynamic] ==> search dynamic
+    arg [-lm] ==> lib [m]
+    arg [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.7/lib/linux/libclang_rt.builtins-arm-android.a] ==> lib [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.7/lib/linux/libclang_rt.builtins-arm-android.a]
+    arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+    arg [-ldl] ==> lib [dl]
+    arg [-lc] ==> lib [c]
+    arg [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.7/lib/linux/libclang_rt.builtins-arm-android.a] ==> lib [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.7/lib/linux/libclang_rt.builtins-arm-android.a]
+    arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+    arg [-ldl] ==> lib [dl]
+    arg [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/21/crtend_android.o] ==> obj [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/21/crtend_android.o]
+  remove lib [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.7/lib/linux/libclang_rt.builtins-arm-android.a]
+  remove lib [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.7/lib/linux/libclang_rt.builtins-arm-android.a]
+  collapse library dir [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.7/lib/linux/arm] ==> [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.7/lib/linux/arm]
+  collapse library dir [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/21] ==> [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/21]
+  collapse library dir [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi] ==> [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi]
+  collapse library dir [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/../lib] ==> [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
+  collapse library dir [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib] ==> [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
+  implicit libs: [c++;m;-l:libunwind.a;dl;c;-l:libunwind.a;dl]
+  implicit objs: [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/21/crtbegin_dynamic.o;C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/21/crtend_android.o]
+  implicit dirs: [C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.7/lib/linux/arm;C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/21;C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi;C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
+  implicit fwks: []
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\spark\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_ad22d && [1/2] Building C object CMakeFiles/cmTC_ad22d.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_ad22d
+
+
+
+Determining if the include file dlfcn.h exists passed with the following output:
+Change Dir: D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\spark\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_5eaff && [1/2] Building C object CMakeFiles/cmTC_5eaff.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_5eaff
+
+
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\spark\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_80dae && [1/2] Building C object CMakeFiles/cmTC_80dae.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_80dae
+
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\spark\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_a16d2 && [1/2] Building C object CMakeFiles/cmTC_a16d2.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_a16d2
+
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\spark\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_4dacd && [1/2] Building C object CMakeFiles/cmTC_4dacd.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_4dacd
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\spark\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_b3f30 && [1/2] Building C object CMakeFiles/cmTC_b3f30.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_b3f30
+
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\spark\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_bab5a && [1/2] Building C object CMakeFiles/cmTC_bab5a.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_bab5a
+
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\spark\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_57a8d && [1/2] Building C object CMakeFiles/cmTC_57a8d.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_57a8d
+
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\spark\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_54d61 && [1/2] Building C object CMakeFiles/cmTC_54d61.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_54d61
+
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\spark\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_eaf6f && [1/2] Building C object CMakeFiles/cmTC_eaf6f.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_eaf6f
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\spark\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_6235d && [1/2] Building C object CMakeFiles/cmTC_6235d.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_6235d
+
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\spark\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_b335a && [1/2] Building C object CMakeFiles/cmTC_b335a.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_b335a
+
+
+
+Determining if the getpagesize exist passed with the following output:
+Change Dir: D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\spark\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_55476 && [1/2] Building C object CMakeFiles/cmTC_55476.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_55476
+
+
+File D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getpagesize
+  return ((int*)(&getpagesize))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the mmap exist passed with the following output:
+Change Dir: D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\spark\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_0342e && [1/2] Building C object CMakeFiles/cmTC_0342e.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_0342e
+
+
+File D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/mman.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mmap
+  return ((int*)(&mmap))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the arc4random_buf exist passed with the following output:
+Change Dir: D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\spark\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_ed629 && [1/2] Building C object CMakeFiles/cmTC_ed629.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_ed629
+
+
+File D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef arc4random_buf
+  return ((int*)(&arc4random_buf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if files stdlib.h;stdarg.h;string.h;float.h exist passed with the following output:
+Change Dir: D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\spark\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_8c622 && [1/2] Building C object CMakeFiles/cmTC_8c622.dir/STDC_HEADERS.c.o
+[2/2] Linking C executable cmTC_8c622
+
+
+
+Performing C SOURCE FILE Test HAVE_SYSCALL_GETRANDOM succeeded with the following output:
+Change Dir: D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\spark\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_05d2b && [1/2] Building C object CMakeFiles/cmTC_05d2b.dir/src.c.o
+[2/2] Linking C executable cmTC_05d2b
+
+
+Source file was:
+
+        #include <stdlib.h>  /* for NULL */
+        #include <unistd.h>  /* for syscall */
+        #include <sys/syscall.h>  /* for SYS_getrandom */
+        int main() {
+            syscall(SYS_getrandom, NULL, 0, 0);
+            return 0;
+        }
+Performing C SOURCE FILE Test FLAG_NO_STRICT_ALIASING succeeded with the following output:
+Change Dir: D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\spark\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_1bcc6 && [1/2] Building C object CMakeFiles/cmTC_1bcc6.dir/src.c.o
+[2/2] Linking C executable cmTC_1bcc6
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_VISIBILITY succeeded with the following output:
+Change Dir: D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\spark\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_c8e1d && [1/2] Building C object CMakeFiles/cmTC_c8e1d.dir/src.c.o
+[2/2] Linking C executable cmTC_c8e1d
+
+
+Source file was:
+int main(void) { return 0; }
+Determining if the function cos exists in the m passed with the following output:
+Change Dir: D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\spark\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_ca383 && [1/2] Building C object CMakeFiles/cmTC_ca383.dir/CheckFunctionExists.c.o
+C:/Users/spark/AppData/Local/Android/Sdk/cmake/3.22.1/share/cmake-3.22/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'cos' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS cos
+                              ^
+C:/Users/spark/AppData/Local/Android/Sdk/cmake/3.22.1/share/cmake-3.22/Modules/CheckFunctionExists.c:7:3: note: 'cos' is a builtin with type 'double (double)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS cos
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_ca383
+
+
+
+Determining if files endian.h exist passed with the following output:
+Change Dir: D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\spark\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_9ce78 && [1/2] Building C object CMakeFiles/cmTC_9ce78.dir/HAVE_ENDIAN_H.c.o
+[2/2] Linking C executable cmTC_9ce78
+
+
+
+Determining if files sched.h exist passed with the following output:
+Change Dir: D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\spark\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_3fae9 && [1/2] Building C object CMakeFiles/cmTC_3fae9.dir/HAVE_SCHED_H.c.o
+[2/2] Linking C executable cmTC_3fae9
+
+
+
+Determining if files sys/param.h exist passed with the following output:
+Change Dir: D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\spark\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_5744d && [1/2] Building C object CMakeFiles/cmTC_5744d.dir/HAVE_SYS_PARAM_H.c.o
+[2/2] Linking C executable cmTC_5744d
+
+
+
+Determining if files sys/time.h exist passed with the following output:
+Change Dir: D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\spark\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_2bfb5 && [1/2] Building C object CMakeFiles/cmTC_2bfb5.dir/HAVE_SYS_TIME_H.c.o
+[2/2] Linking C executable cmTC_2bfb5
+
+
+
+Determining if the function close exists passed with the following output:
+Change Dir: D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\spark\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_3fc12 && [1/2] Building C object CMakeFiles/cmTC_3fc12.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_3fc12
+
+
+
+Determining if the function getpid exists passed with the following output:
+Change Dir: D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\spark\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_0b874 && [1/2] Building C object CMakeFiles/cmTC_0b874.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_0b874
+
+
+
+Determining if the function gettimeofday exists passed with the following output:
+Change Dir: D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\spark\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_ba757 && [1/2] Building C object CMakeFiles/cmTC_ba757.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_ba757
+
+
+
+Determining if the function open exists passed with the following output:
+Change Dir: D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\spark\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_0fc54 && [1/2] Building C object CMakeFiles/cmTC_0fc54.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_0fc54
+
+
+
+Determining if the function read exists passed with the following output:
+Change Dir: D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\spark\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_e2844 && [1/2] Building C object CMakeFiles/cmTC_e2844.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_e2844
+
+
+
+Determining if the function sched_yield exists passed with the following output:
+Change Dir: D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\spark\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_7b9bd && [1/2] Building C object CMakeFiles/cmTC_7b9bd.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_7b9bd
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\spark\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_ae5ea && [1/2] Building C object CMakeFiles/cmTC_ae5ea.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_ae5ea
+
+
+
+Determining size of int64_t passed with the following output:
+Change Dir: D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\spark\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_5b659 && [1/2] Building C object CMakeFiles/cmTC_5b659.dir/INT64_T.c.o
+[2/2] Linking C executable cmTC_5b659
+
+
+
+Determining size of long long passed with the following output:
+Change Dir: D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\spark\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_ed9cb && [1/2] Building C object CMakeFiles/cmTC_ed9cb.dir/LONG_LONG_INT.c.o
+[2/2] Linking C executable cmTC_ed9cb
+
+
+
+Determining size of int32_t passed with the following output:
+Change Dir: D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\spark\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_6d544 && [1/2] Building C object CMakeFiles/cmTC_6d544.dir/INT32_T.c.o
+[2/2] Linking C executable cmTC_6d544
+
+
+
+Determining size of long passed with the following output:
+Change Dir: D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\spark\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_910f3 && [1/2] Building C object CMakeFiles/cmTC_910f3.dir/LONG_INT.c.o
+[2/2] Linking C executable cmTC_910f3
+
+
+
+Determining size of int passed with the following output:
+Change Dir: D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\spark\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_f881c && [1/2] Building C object CMakeFiles/cmTC_f881c.dir/INT.c.o
+[2/2] Linking C executable cmTC_f881c
+
+
+
+Determining size of unsigned long passed with the following output:
+Change Dir: D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\spark\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_15bb3 && [1/2] Building C object CMakeFiles/cmTC_15bb3.dir/UNSIGNED_LONG_INT.c.o
+[2/2] Linking C executable cmTC_15bb3
+
+
+
+Determining size of unsigned int passed with the following output:
+Change Dir: D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\spark\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_ba9de && [1/2] Building C object CMakeFiles/cmTC_ba9de.dir/UNSIGNED_INT.c.o
+[2/2] Linking C executable cmTC_ba9de
+
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\spark\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_be40d && [1/2] Building C object CMakeFiles/cmTC_be40d.dir/UNSIGNED_SHORT.c.o
+[2/2] Linking C executable cmTC_be40d
+
+
+
+Determining size of uint32_t passed with the following output:
+Change Dir: D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\spark\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_9ab6a && [1/2] Building C object CMakeFiles/cmTC_9ab6a.dir/UINT32_T.c.o
+[2/2] Linking C executable cmTC_9ab6a
+
+
+
+Determining size of uint16_t passed with the following output:
+Change Dir: D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\spark\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_445f8 && [1/2] Building C object CMakeFiles/cmTC_445f8.dir/UINT16_T.c.o
+[2/2] Linking C executable cmTC_445f8
+
+
+
+Determining size of uint8_t passed with the following output:
+Change Dir: D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\spark\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_122d7 && [1/2] Building C object CMakeFiles/cmTC_122d7.dir/UINT8_T.c.o
+[2/2] Linking C executable cmTC_122d7
+
+
+
+Determining size of ssize_t passed with the following output:
+Change Dir: D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\spark\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_131d0 && [1/2] Building C object CMakeFiles/cmTC_131d0.dir/SSIZE_T.c.o
+[2/2] Linking C executable cmTC_131d0
+
+
+
+Determining if the function strtoll exists passed with the following output:
+Change Dir: D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\spark\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_5aa08 && [1/2] Building C object CMakeFiles/cmTC_5aa08.dir/CheckFunctionExists.c.o
+C:/Users/spark/AppData/Local/Android/Sdk/cmake/3.22.1/share/cmake-3.22/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strtoll' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strtoll
+                              ^
+C:/Users/spark/AppData/Local/Android/Sdk/cmake/3.22.1/share/cmake-3.22/Modules/CheckFunctionExists.c:7:3: note: 'strtoll' is a builtin with type 'long long (const char *, char **, int)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strtoll
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_5aa08
+
+
+
+Determining if the function strtoq exists passed with the following output:
+Change Dir: D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\spark\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_397c6 && [1/2] Building C object CMakeFiles/cmTC_397c6.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_397c6
+
+
+
+Determining if files locale.h exist passed with the following output:
+Change Dir: D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\spark\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_eb986 && [1/2] Building C object CMakeFiles/cmTC_eb986.dir/HAVE_LOCALE_H.c.o
+[2/2] Linking C executable cmTC_eb986
+
+
+
+Determining if the function localeconv exists passed with the following output:
+Change Dir: D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\spark\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_bf49b && [1/2] Building C object CMakeFiles/cmTC_bf49b.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_bf49b
+
+
+
+Determining if the function setlocale exists passed with the following output:
+Change Dir: D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\spark\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_52a49 && [1/2] Building C object CMakeFiles/cmTC_52a49.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_52a49
+
+
+
+Performing C SOURCE FILE Test HAVE_INLINE succeeded with the following output:
+Change Dir: D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\spark\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_1f558 && [1/2] Building C object CMakeFiles/cmTC_1f558.dir/src.c.o
+[2/2] Linking C executable cmTC_1f558
+
+
+Source file was:
+inline void func(); void func() { } int main() { func(); return 0; }
+Performing C SOURCE FILE Test HAVE___INLINE succeeded with the following output:
+Change Dir: D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\spark\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_39e63 && [1/2] Building C object CMakeFiles/cmTC_39e63.dir/src.c.o
+[2/2] Linking C executable cmTC_39e63
+
+
+Source file was:
+__inline void func(); void func() { } int main() { func(); return 0; }
+Performing C SOURCE FILE Test HAVE___INLINE__ succeeded with the following output:
+Change Dir: D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\spark\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_691a6 && [1/2] Building C object CMakeFiles/cmTC_691a6.dir/src.c.o
+[2/2] Linking C executable cmTC_691a6
+
+
+Source file was:
+__inline__ void func(); void func() { } int main() { func(); return 0; }
+Performing C SOURCE FILE Test HAVE_SYNC_BUILTINS succeeded with the following output:
+Change Dir: D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\spark\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_c83aa && [1/2] Building C object CMakeFiles/cmTC_c83aa.dir/src.c.o
+[2/2] Linking C executable cmTC_c83aa
+
+
+Source file was:
+int main() { unsigned long val; __sync_bool_compare_and_swap(&val, 0, 1); __sync_add_and_fetch(&val, 1); __sync_sub_and_fetch(&val, 1); return 0; } 
+Performing C SOURCE FILE Test HAVE_ATOMIC_BUILTINS succeeded with the following output:
+Change Dir: D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\spark\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_3ca25 && [1/2] Building C object CMakeFiles/cmTC_3ca25.dir/src.c.o
+[2/2] Linking C executable cmTC_3ca25
+
+
+Source file was:
+int main() { char l; unsigned long v; __atomic_test_and_set(&l, __ATOMIC_RELAXED); __atomic_store_n(&v, 1, __ATOMIC_RELEASE); __atomic_load_n(&v, __ATOMIC_ACQUIRE); __atomic_add_fetch(&v, 1, __ATOMIC_ACQUIRE); __atomic_sub_fetch(&v, 1, __ATOMIC_RELEASE); return 0; }
+Determining if the include file fnmatch.h exists passed with the following output:
+Change Dir: D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\spark\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_caa86 && [1/2] Building CXX object CMakeFiles/cmTC_caa86.dir/CheckIncludeFile.cxx.o
+[2/2] Linking CXX executable cmTC_caa86
+
+
+
+Determining size of uint32_t passed with the following output:
+Change Dir: D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\spark\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_85107 && [1/2] Building CXX object CMakeFiles/cmTC_85107.dir/uint32_t.cpp.o
+[2/2] Linking CXX executable cmTC_85107
+
+
+

@@ -1,0 +1,353 @@
+{
+  "buildFiles": [
+    "D:\\Projects Git\\organicmaps\\3party\\agg\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\3party\\bsdiff-courgette\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\3party\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\3party\\expat\\expat\\cmake\\expat-config.cmake.in",
+    "D:\\Projects Git\\organicmaps\\3party\\expat\\expat\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\3party\\expat\\expat\\ConfigureChecks.cmake",
+    "D:\\Projects Git\\organicmaps\\3party\\expat\\expat\\expat_config.h.cmake",
+    "D:\\Projects Git\\organicmaps\\3party\\freetype\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\3party\\freetype\\freetype\\builds\\cmake\\FindBrotliDec.cmake",
+    "D:\\Projects Git\\organicmaps\\3party\\freetype\\freetype\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\3party\\gflags\\cmake\\config.cmake.in",
+    "D:\\Projects Git\\organicmaps\\3party\\gflags\\cmake\\utils.cmake",
+    "D:\\Projects Git\\organicmaps\\3party\\gflags\\cmake\\version.cmake.in",
+    "D:\\Projects Git\\organicmaps\\3party\\gflags\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\3party\\harfbuzz\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\3party\\icu\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\3party\\jansson\\jansson\\cmake\\CheckFunctionKeywords.cmake",
+    "D:\\Projects Git\\organicmaps\\3party\\jansson\\jansson\\cmake\\jansson_config.h.cmake",
+    "D:\\Projects Git\\organicmaps\\3party\\jansson\\jansson\\cmake\\jansson_private_config.h.cmake",
+    "D:\\Projects Git\\organicmaps\\3party\\jansson\\jansson\\cmake\\janssonConfig.cmake.in",
+    "D:\\Projects Git\\organicmaps\\3party\\jansson\\jansson\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\3party\\liboauthcpp\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\3party\\minizip\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\3party\\open-location-code\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\3party\\opening_hours\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\3party\\protobuf\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\3party\\pugixml\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\3party\\sdf_image\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\3party\\stb_image\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\3party\\succinct\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\3party\\vulkan_wrapper\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\android\\jni\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\base\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\cmake\\OmimConfig.cmake",
+    "D:\\Projects Git\\organicmaps\\cmake\\OmimHelpers.cmake",
+    "D:\\Projects Git\\organicmaps\\cmake\\OmimTesting.cmake",
+    "D:\\Projects Git\\organicmaps\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\coding\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\cppjansson\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\descriptions\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\drape\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\drape_frontend\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\editor\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\ge0\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\generator\\mwm_diff\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\generator\\mwm_diff\\mwm_diff_tool\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\geometry\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\indexer\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\kml\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\map\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\platform\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\routing\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\routing_common\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\search\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\shaders\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\storage\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\tracking\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\traffic\\CMakeLists.txt",
+    "D:\\Projects Git\\organicmaps\\transit\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\spark\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+      "-C",
+      "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\RelWithDebInfo\\6m4q4r6g\\armeabi-v7a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\spark\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+    "-C",
+    "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\RelWithDebInfo\\6m4q4r6g\\armeabi-v7a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "agg::@d1951b0442ceb992a719": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "agg",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\RelWithDebInfo\\6m4q4r6g\\armeabi-v7a\\libagg.a"
+    },
+    "base::@4506b02e7a4fef989908": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "base",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\RelWithDebInfo\\6m4q4r6g\\armeabi-v7a\\libbase.a"
+    },
+    "bsdiff::@9daa88e972815e1f384e": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "bsdiff",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\RelWithDebInfo\\6m4q4r6g\\armeabi-v7a\\libbsdiff.a"
+    },
+    "coding::@60bcc26dbc144f002396": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "coding",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\RelWithDebInfo\\6m4q4r6g\\armeabi-v7a\\libcoding.a"
+    },
+    "cppjansson::@d77058f0fcd7a34f6d73": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "cppjansson",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\RelWithDebInfo\\6m4q4r6g\\armeabi-v7a\\libcppjansson.a"
+    },
+    "descriptions::@f9c978e907e47652bd69": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "descriptions",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\RelWithDebInfo\\6m4q4r6g\\armeabi-v7a\\libdescriptions.a"
+    },
+    "drape::@2ed09f975a1abd35a830": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "drape",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\RelWithDebInfo\\6m4q4r6g\\armeabi-v7a\\libdrape.a"
+    },
+    "drape_frontend::@1b37d6fbdc14c626c38a": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "drape_frontend",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\RelWithDebInfo\\6m4q4r6g\\armeabi-v7a\\libdrape_frontend.a"
+    },
+    "editor::@ed37844f285895dce70e": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "editor",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\RelWithDebInfo\\6m4q4r6g\\armeabi-v7a\\libeditor.a"
+    },
+    "expat::@dc85a0b6f66c39b32454": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "expat",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\RelWithDebInfo\\6m4q4r6g\\armeabi-v7a\\libexpat.a"
+    },
+    "freetype::@0f29e336c249c80ede9d": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "freetype",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\RelWithDebInfo\\6m4q4r6g\\armeabi-v7a\\libfreetype.a"
+    },
+    "ge0::@1da94f5d20bc972d6d32": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "ge0",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\RelWithDebInfo\\6m4q4r6g\\armeabi-v7a\\libge0.a"
+    },
+    "geometry::@60d41218eef6b4657a56": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "geometry",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\RelWithDebInfo\\6m4q4r6g\\armeabi-v7a\\libgeometry.a"
+    },
+    "gflags_nothreads_static::@1fc8ae345c4e6915cf1b": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "gflags_nothreads_static",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\RelWithDebInfo\\6m4q4r6g\\armeabi-v7a\\libgflags_nothreads.a"
+    },
+    "harfbuzz::@56d4677668c020a6400c": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "harfbuzz",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\RelWithDebInfo\\6m4q4r6g\\armeabi-v7a\\libharfbuzz.a"
+    },
+    "icui18n::@8f7e0e3fcd7b0f7ba9cb": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "icui18n",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\RelWithDebInfo\\6m4q4r6g\\armeabi-v7a\\libicui18n.a"
+    },
+    "icuuc::@8f7e0e3fcd7b0f7ba9cb": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "icuuc",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\RelWithDebInfo\\6m4q4r6g\\armeabi-v7a\\libicuuc.a"
+    },
+    "indexer::@eae5087a5c346f531194": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "indexer",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\RelWithDebInfo\\6m4q4r6g\\armeabi-v7a\\libindexer.a"
+    },
+    "jansson::@69444fecc8a3523fc1b7": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "jansson",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\RelWithDebInfo\\6m4q4r6g\\armeabi-v7a\\3party\\jansson\\jansson\\lib\\libjansson.a"
+    },
+    "kml::@0ced2ce8ef2b090005bf": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "kml",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\RelWithDebInfo\\6m4q4r6g\\armeabi-v7a\\libkml.a"
+    },
+    "map::@afb660f44a3db5ed153e": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "map",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\RelWithDebInfo\\6m4q4r6g\\armeabi-v7a\\libmap.a"
+    },
+    "minizip::@2bcf17b52364be14ece1": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "minizip",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\RelWithDebInfo\\6m4q4r6g\\armeabi-v7a\\libminizip.a"
+    },
+    "mwm_diff::@4c3f3f2afe6452cda077": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "mwm_diff",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\RelWithDebInfo\\6m4q4r6g\\armeabi-v7a\\libmwm_diff.a"
+    },
+    "oauthcpp::@0699ac01ed72c041e9e0": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "oauthcpp",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\RelWithDebInfo\\6m4q4r6g\\armeabi-v7a\\liboauthcpp.a"
+    },
+    "opening_hours::@9cd6d79fbeac61602137": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "opening_hours",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\RelWithDebInfo\\6m4q4r6g\\armeabi-v7a\\libopening_hours.a"
+    },
+    "openlocationcode::@fc2b449f292b0ea32607": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "openlocationcode",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\RelWithDebInfo\\6m4q4r6g\\armeabi-v7a\\libopenlocationcode.a"
+    },
+    "organicmaps::@c63f928fbae149c7160b": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "organicmaps",
+      "output": "D:\\Projects Git\\organicmaps\\android\\build\\intermediates\\cxx\\RelWithDebInfo\\6m4q4r6g\\obj\\armeabi-v7a\\liborganicmaps.so",
+      "runtimeFiles": []
+    },
+    "platform::@06522778d3acbe1b37c9": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "platform",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\RelWithDebInfo\\6m4q4r6g\\armeabi-v7a\\libplatform.a"
+    },
+    "protobuf::@5fdd12ad44f2b86368cb": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "protobuf",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\RelWithDebInfo\\6m4q4r6g\\armeabi-v7a\\libprotobuf.a"
+    },
+    "pugixml::@348c60c54c5a688813b1": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "pugixml",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\RelWithDebInfo\\6m4q4r6g\\armeabi-v7a\\libpugixml.a"
+    },
+    "pymwm_diff::@3c06b0a8338fadd30b60": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "pymwm_diff",
+      "output": "D:\\Projects Git\\organicmaps\\android\\build\\intermediates\\cxx\\RelWithDebInfo\\6m4q4r6g\\obj\\armeabi-v7a\\pymwm_diff",
+      "runtimeFiles": []
+    },
+    "routing::@2edf95b1ca8f5bcdf920": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "routing",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\RelWithDebInfo\\6m4q4r6g\\armeabi-v7a\\librouting.a"
+    },
+    "routing_common::@2d2723bc4bea211234de": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "routing_common",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\RelWithDebInfo\\6m4q4r6g\\armeabi-v7a\\librouting_common.a"
+    },
+    "sdf_image::@00066329211b93b2f422": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "sdf_image",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\RelWithDebInfo\\6m4q4r6g\\armeabi-v7a\\libsdf_image.a"
+    },
+    "search::@b3e4e3481926c17d0075": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "search",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\RelWithDebInfo\\6m4q4r6g\\armeabi-v7a\\libsearch.a"
+    },
+    "shaders::@8132085bf3b90c3252db": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "shaders",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\RelWithDebInfo\\6m4q4r6g\\armeabi-v7a\\libshaders.a"
+    },
+    "stb_image::@821502f4bc0e17a6b558": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "stb_image",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\RelWithDebInfo\\6m4q4r6g\\armeabi-v7a\\libstb_image.a"
+    },
+    "storage::@78361d3913668f02dc91": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "storage",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\RelWithDebInfo\\6m4q4r6g\\armeabi-v7a\\libstorage.a"
+    },
+    "succinct::@1c6db56d7a868de08fac": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "succinct",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\RelWithDebInfo\\6m4q4r6g\\armeabi-v7a\\libsuccinct.a"
+    },
+    "tracking::@318ea532d6241cdbd0d5": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "tracking",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\RelWithDebInfo\\6m4q4r6g\\armeabi-v7a\\libtracking.a"
+    },
+    "traffic::@ef693e1ba9651bca7d18": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "traffic",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\RelWithDebInfo\\6m4q4r6g\\armeabi-v7a\\libtraffic.a"
+    },
+    "transit::@aadc42b695b31f1f2bfa": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "transit",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\RelWithDebInfo\\6m4q4r6g\\armeabi-v7a\\libtransit.a"
+    },
+    "vulkan_wrapper::@653f93dd178152ddc44a": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "vulkan_wrapper",
+      "output": "D:\\Projects Git\\organicmaps\\android\\nativeOutputs\\RelWithDebInfo\\6m4q4r6g\\armeabi-v7a\\libvulkan_wrapper.a"
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "C:\\Users\\spark\\AppData\\Local\\Android\\Sdk\\ndk\\25.2.9519653\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe",
+      "cppCompilerExecutable": "C:\\Users\\spark\\AppData\\Local\\Android\\Sdk\\ndk\\25.2.9519653\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": [
+    "cxx",
+    "cpp",
+    "cc"
+  ]
+}

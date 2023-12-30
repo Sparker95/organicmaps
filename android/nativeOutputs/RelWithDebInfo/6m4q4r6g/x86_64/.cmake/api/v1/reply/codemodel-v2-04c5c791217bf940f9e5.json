@@ -1,0 +1,1614 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-RelWithDebInfo-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "3party",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-3party-RelWithDebInfo-44d5c99cf8a9d18fbca6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "3party"
+				},
+				{
+					"build" : "3party/expat/expat",
+					"jsonFile" : "directory-3party.expat.expat-RelWithDebInfo-3e3760320565420365e2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.3"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "3party/expat/expat",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "3party/jansson/jansson",
+					"jsonFile" : "directory-3party.jansson.jansson-RelWithDebInfo-0e73e74144d90ec93751.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "3party/jansson/jansson",
+					"targetIndexes" : 
+					[
+						18
+					]
+				},
+				{
+					"build" : "3party/gflags",
+					"jsonFile" : "directory-3party.gflags-RelWithDebInfo-69d05faae98ce6a55403.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.2"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 3,
+					"source" : "3party/gflags",
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"build" : "3party/pugixml",
+					"jsonFile" : "directory-3party.pugixml-RelWithDebInfo-42de9412d0f23fdef25e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 4,
+					"source" : "3party/pugixml",
+					"targetIndexes" : 
+					[
+						29
+					]
+				},
+				{
+					"build" : "3party/protobuf",
+					"jsonFile" : "directory-3party.protobuf-RelWithDebInfo-0a400739a49167d58e98.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 5,
+					"source" : "3party/protobuf",
+					"targetIndexes" : 
+					[
+						28
+					]
+				},
+				{
+					"build" : "3party/agg",
+					"jsonFile" : "directory-3party.agg-RelWithDebInfo-d6117f1fce6de686bb04.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 6,
+					"source" : "3party/agg",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "3party/bsdiff-courgette",
+					"jsonFile" : "directory-3party.bsdiff-courgette-RelWithDebInfo-9798a2f6c51b090fd220.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 7,
+					"source" : "3party/bsdiff-courgette",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "3party/freetype",
+					"childIndexes" : 
+					[
+						10
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-3party.freetype-RelWithDebInfo-b356b5c466f013a4a2e7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "3party/freetype"
+				},
+				{
+					"build" : "3party/freetype/freetype",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-3party.freetype.freetype-RelWithDebInfo-23d9713f99d0b471f621.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 8,
+					"source" : "3party/freetype/freetype",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "3party/icu",
+					"jsonFile" : "directory-3party.icu-RelWithDebInfo-207802fdfbe4a2998290.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 9,
+					"source" : "3party/icu",
+					"targetIndexes" : 
+					[
+						15,
+						16
+					]
+				},
+				{
+					"build" : "3party/harfbuzz",
+					"jsonFile" : "directory-3party.harfbuzz-RelWithDebInfo-cf92ebd9f92c3e4c60d7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 10,
+					"source" : "3party/harfbuzz",
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"build" : "3party/liboauthcpp",
+					"jsonFile" : "directory-3party.liboauthcpp-RelWithDebInfo-aa7a24f370c59c4bca2e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 11,
+					"source" : "3party/liboauthcpp",
+					"targetIndexes" : 
+					[
+						23
+					]
+				},
+				{
+					"build" : "3party/minizip",
+					"jsonFile" : "directory-3party.minizip-RelWithDebInfo-4757d82fa6207b3a40f5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 12,
+					"source" : "3party/minizip",
+					"targetIndexes" : 
+					[
+						21
+					]
+				},
+				{
+					"build" : "3party/open-location-code",
+					"jsonFile" : "directory-3party.open-location-code-RelWithDebInfo-71097600df4054968f71.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 13,
+					"source" : "3party/open-location-code",
+					"targetIndexes" : 
+					[
+						25
+					]
+				},
+				{
+					"build" : "3party/opening_hours",
+					"jsonFile" : "directory-3party.opening_hours-RelWithDebInfo-6eb38ff3581edfe982cb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 14,
+					"source" : "3party/opening_hours",
+					"targetIndexes" : 
+					[
+						24
+					]
+				},
+				{
+					"build" : "3party/sdf_image",
+					"jsonFile" : "directory-3party.sdf_image-RelWithDebInfo-6d3b278d8ce703075264.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 15,
+					"source" : "3party/sdf_image",
+					"targetIndexes" : 
+					[
+						33
+					]
+				},
+				{
+					"build" : "3party/stb_image",
+					"jsonFile" : "directory-3party.stb_image-RelWithDebInfo-c184f22ba22d75867577.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 16,
+					"source" : "3party/stb_image",
+					"targetIndexes" : 
+					[
+						36
+					]
+				},
+				{
+					"build" : "3party/succinct",
+					"jsonFile" : "directory-3party.succinct-RelWithDebInfo-c10c8c81cd368ff19854.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 17,
+					"source" : "3party/succinct",
+					"targetIndexes" : 
+					[
+						38
+					]
+				},
+				{
+					"build" : "3party/vulkan_wrapper",
+					"jsonFile" : "directory-3party.vulkan_wrapper-RelWithDebInfo-b2c9af0e7683b748fb2a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 18,
+					"source" : "3party/vulkan_wrapper",
+					"targetIndexes" : 
+					[
+						42
+					]
+				},
+				{
+					"build" : "base",
+					"jsonFile" : "directory-base-RelWithDebInfo-554918083650b4e24ef4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 19,
+					"source" : "base",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "coding",
+					"jsonFile" : "directory-coding-RelWithDebInfo-ca0f70faccdd4bee04c8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 20,
+					"source" : "coding",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "descriptions",
+					"jsonFile" : "directory-descriptions-RelWithDebInfo-0c0cc3e67679aef7dc70.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 21,
+					"source" : "descriptions",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "drape",
+					"jsonFile" : "directory-drape-RelWithDebInfo-f95e3423409bcc345f35.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 22,
+					"source" : "drape",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "drape_frontend",
+					"jsonFile" : "directory-drape_frontend-RelWithDebInfo-40b3941ee41b0c3d18a5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 23,
+					"source" : "drape_frontend",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "editor",
+					"jsonFile" : "directory-editor-RelWithDebInfo-f0e908b7e5506a789932.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 24,
+					"source" : "editor",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "ge0",
+					"jsonFile" : "directory-ge0-RelWithDebInfo-736651ada46c87922eaf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 25,
+					"source" : "ge0",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "generator/mwm_diff",
+					"childIndexes" : 
+					[
+						29
+					],
+					"jsonFile" : "directory-generator.mwm_diff-RelWithDebInfo-c980a73110c53b5854c5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 26,
+					"source" : "generator/mwm_diff",
+					"targetIndexes" : 
+					[
+						22
+					]
+				},
+				{
+					"build" : "generator/mwm_diff/mwm_diff_tool",
+					"jsonFile" : "directory-generator.mwm_diff.mwm_diff_tool-RelWithDebInfo-84d3a3c58ebed049ea1d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 28,
+					"projectIndex" : 27,
+					"source" : "generator/mwm_diff/mwm_diff_tool",
+					"targetIndexes" : 
+					[
+						30
+					]
+				},
+				{
+					"build" : "geometry",
+					"jsonFile" : "directory-geometry-RelWithDebInfo-76ea87e05cd74d9bdd88.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 28,
+					"source" : "geometry",
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"build" : "indexer",
+					"jsonFile" : "directory-indexer-RelWithDebInfo-d95eb8bd41a58c3e12b6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 29,
+					"source" : "indexer",
+					"targetIndexes" : 
+					[
+						17
+					]
+				},
+				{
+					"build" : "kml",
+					"jsonFile" : "directory-kml-RelWithDebInfo-1357989783a584338878.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 30,
+					"source" : "kml",
+					"targetIndexes" : 
+					[
+						19
+					]
+				},
+				{
+					"build" : "map",
+					"jsonFile" : "directory-map-RelWithDebInfo-a75855965a43ceb767fb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 31,
+					"source" : "map",
+					"targetIndexes" : 
+					[
+						20
+					]
+				},
+				{
+					"build" : "cppjansson",
+					"jsonFile" : "directory-cppjansson-RelWithDebInfo-5e7d2e0749403c192850.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 32,
+					"source" : "cppjansson",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "platform",
+					"jsonFile" : "directory-platform-RelWithDebInfo-c3ab5af9276018affe88.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 33,
+					"source" : "platform",
+					"targetIndexes" : 
+					[
+						27
+					]
+				},
+				{
+					"build" : "routing",
+					"jsonFile" : "directory-routing-RelWithDebInfo-fcee5a765dd767bccdf4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 34,
+					"source" : "routing",
+					"targetIndexes" : 
+					[
+						31
+					]
+				},
+				{
+					"build" : "routing_common",
+					"jsonFile" : "directory-routing_common-RelWithDebInfo-00a3cee5b4dc2fe50654.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 35,
+					"source" : "routing_common",
+					"targetIndexes" : 
+					[
+						32
+					]
+				},
+				{
+					"build" : "search",
+					"jsonFile" : "directory-search-RelWithDebInfo-89105324b39aa02ee036.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 36,
+					"source" : "search",
+					"targetIndexes" : 
+					[
+						34
+					]
+				},
+				{
+					"build" : "shaders",
+					"jsonFile" : "directory-shaders-RelWithDebInfo-f8e302432518b1289d1e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 37,
+					"source" : "shaders",
+					"targetIndexes" : 
+					[
+						35
+					]
+				},
+				{
+					"build" : "storage",
+					"jsonFile" : "directory-storage-RelWithDebInfo-f31e61951c0b2e7ddb51.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 38,
+					"source" : "storage",
+					"targetIndexes" : 
+					[
+						37
+					]
+				},
+				{
+					"build" : "tracking",
+					"jsonFile" : "directory-tracking-RelWithDebInfo-f0f2648db982a6896a98.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 39,
+					"source" : "tracking",
+					"targetIndexes" : 
+					[
+						39
+					]
+				},
+				{
+					"build" : "traffic",
+					"jsonFile" : "directory-traffic-RelWithDebInfo-b23b16a3dc1496740b50.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 40,
+					"source" : "traffic",
+					"targetIndexes" : 
+					[
+						40
+					]
+				},
+				{
+					"build" : "transit",
+					"jsonFile" : "directory-transit-RelWithDebInfo-d1b78e58d113b25a325a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 41,
+					"source" : "transit",
+					"targetIndexes" : 
+					[
+						41
+					]
+				},
+				{
+					"build" : "android/jni",
+					"jsonFile" : "directory-android.jni-RelWithDebInfo-1061ee7a0f739b9b46fb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 42,
+					"source" : "android/jni",
+					"targetIndexes" : 
+					[
+						26
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						9
+					],
+					"name" : "omim"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "expat",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "jansson",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						18
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "gflags",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "pugixml",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						29
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "protobuf",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						28
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "agg",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "bsdiff",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						10
+					],
+					"name" : "freetype",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						11
+					],
+					"name" : "icu",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						15,
+						16
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						12
+					],
+					"name" : "harfbuzz",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						13
+					],
+					"name" : "oauthcpp",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						23
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						14
+					],
+					"name" : "minizip",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						21
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						15
+					],
+					"name" : "openlocationcode",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						25
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						16
+					],
+					"name" : "opening_hours",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						24
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						17
+					],
+					"name" : "sdf_image",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						33
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						18
+					],
+					"name" : "stb_image",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						36
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						19
+					],
+					"name" : "succinct",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						38
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						20
+					],
+					"name" : "vulkan_wrapper",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						42
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						21
+					],
+					"name" : "base",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						22
+					],
+					"name" : "coding",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						23
+					],
+					"name" : "descriptions",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						24
+					],
+					"name" : "drape",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						25
+					],
+					"name" : "drape_frontend",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						26
+					],
+					"name" : "editor",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						27
+					],
+					"name" : "ge0",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						27
+					],
+					"directoryIndexes" : 
+					[
+						28
+					],
+					"name" : "mwm_diff",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						22
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						29
+					],
+					"name" : "pymwm_diff",
+					"parentIndex" : 26,
+					"targetIndexes" : 
+					[
+						30
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						30
+					],
+					"name" : "geometry",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						31
+					],
+					"name" : "indexer",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						17
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						32
+					],
+					"name" : "kml",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						19
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						33
+					],
+					"name" : "map",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						20
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						34
+					],
+					"name" : "cppjansson",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						35
+					],
+					"name" : "platform",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						27
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						36
+					],
+					"name" : "routing",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						31
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						37
+					],
+					"name" : "routing_common",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						32
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						38
+					],
+					"name" : "search",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						34
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						39
+					],
+					"name" : "shaders",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						35
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						40
+					],
+					"name" : "storage",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						37
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						41
+					],
+					"name" : "tracking",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						39
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						42
+					],
+					"name" : "traffic",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						40
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						43
+					],
+					"name" : "transit",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						41
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						44
+					],
+					"name" : "organicmaps",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						26
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 7,
+					"id" : "agg::@d1951b0442ceb992a719",
+					"jsonFile" : "target-agg-RelWithDebInfo-142d539058910e750947.json",
+					"name" : "agg",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 21,
+					"id" : "base::@4506b02e7a4fef989908",
+					"jsonFile" : "target-base-RelWithDebInfo-3b27e3c233e568615c96.json",
+					"name" : "base",
+					"projectIndex" : 19
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "bsdiff::@9daa88e972815e1f384e",
+					"jsonFile" : "target-bsdiff-RelWithDebInfo-876c3b91076a0c4aaea0.json",
+					"name" : "bsdiff",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 22,
+					"id" : "coding::@60bcc26dbc144f002396",
+					"jsonFile" : "target-coding-RelWithDebInfo-4b8b06bb1b274e45dfb0.json",
+					"name" : "coding",
+					"projectIndex" : 20
+				},
+				{
+					"directoryIndex" : 34,
+					"id" : "cppjansson::@d77058f0fcd7a34f6d73",
+					"jsonFile" : "target-cppjansson-RelWithDebInfo-9d44a83d73b5e12c7189.json",
+					"name" : "cppjansson",
+					"projectIndex" : 32
+				},
+				{
+					"directoryIndex" : 23,
+					"id" : "descriptions::@f9c978e907e47652bd69",
+					"jsonFile" : "target-descriptions-RelWithDebInfo-58b8dd3490ce8c1914db.json",
+					"name" : "descriptions",
+					"projectIndex" : 21
+				},
+				{
+					"directoryIndex" : 24,
+					"id" : "drape::@2ed09f975a1abd35a830",
+					"jsonFile" : "target-drape-RelWithDebInfo-99b892e14000ddc38e72.json",
+					"name" : "drape",
+					"projectIndex" : 22
+				},
+				{
+					"directoryIndex" : 25,
+					"id" : "drape_frontend::@1b37d6fbdc14c626c38a",
+					"jsonFile" : "target-drape_frontend-RelWithDebInfo-e066aa84098dd0d3ead4.json",
+					"name" : "drape_frontend",
+					"projectIndex" : 23
+				},
+				{
+					"directoryIndex" : 26,
+					"id" : "editor::@ed37844f285895dce70e",
+					"jsonFile" : "target-editor-RelWithDebInfo-5e9b4283ba7822851aa0.json",
+					"name" : "editor",
+					"projectIndex" : 24
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "expat::@dc85a0b6f66c39b32454",
+					"jsonFile" : "target-expat-RelWithDebInfo-be13433a4bb73dd5ebab.json",
+					"name" : "expat",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "freetype::@0f29e336c249c80ede9d",
+					"jsonFile" : "target-freetype-RelWithDebInfo-b34d0639f86634ec4d30.json",
+					"name" : "freetype",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 27,
+					"id" : "ge0::@1da94f5d20bc972d6d32",
+					"jsonFile" : "target-ge0-RelWithDebInfo-29f70325470ef4270ae9.json",
+					"name" : "ge0",
+					"projectIndex" : 25
+				},
+				{
+					"directoryIndex" : 30,
+					"id" : "geometry::@60d41218eef6b4657a56",
+					"jsonFile" : "target-geometry-RelWithDebInfo-764fa7ec5205ae3920cc.json",
+					"name" : "geometry",
+					"projectIndex" : 28
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "gflags_nothreads_static::@1fc8ae345c4e6915cf1b",
+					"jsonFile" : "target-gflags_nothreads_static-RelWithDebInfo-e574998fe8ae87ab54a0.json",
+					"name" : "gflags_nothreads_static",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "harfbuzz::@56d4677668c020a6400c",
+					"jsonFile" : "target-harfbuzz-RelWithDebInfo-bfe0b8ab9dcc596aface.json",
+					"name" : "harfbuzz",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "icui18n::@8f7e0e3fcd7b0f7ba9cb",
+					"jsonFile" : "target-icui18n-RelWithDebInfo-525cd2fcb13c0de70d50.json",
+					"name" : "icui18n",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "icuuc::@8f7e0e3fcd7b0f7ba9cb",
+					"jsonFile" : "target-icuuc-RelWithDebInfo-82c1991fdd958c964a7d.json",
+					"name" : "icuuc",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 31,
+					"id" : "indexer::@eae5087a5c346f531194",
+					"jsonFile" : "target-indexer-RelWithDebInfo-28ec95610b3c081d12b6.json",
+					"name" : "indexer",
+					"projectIndex" : 29
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "jansson::@69444fecc8a3523fc1b7",
+					"jsonFile" : "target-jansson-RelWithDebInfo-a045f22d60c67244f8d9.json",
+					"name" : "jansson",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 32,
+					"id" : "kml::@0ced2ce8ef2b090005bf",
+					"jsonFile" : "target-kml-RelWithDebInfo-68f018c9b62e9a6f8143.json",
+					"name" : "kml",
+					"projectIndex" : 30
+				},
+				{
+					"directoryIndex" : 33,
+					"id" : "map::@afb660f44a3db5ed153e",
+					"jsonFile" : "target-map-RelWithDebInfo-a1ea61b133af4ffb3bfc.json",
+					"name" : "map",
+					"projectIndex" : 31
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "minizip::@2bcf17b52364be14ece1",
+					"jsonFile" : "target-minizip-RelWithDebInfo-e41f4c725eff1f6b6c60.json",
+					"name" : "minizip",
+					"projectIndex" : 12
+				},
+				{
+					"directoryIndex" : 28,
+					"id" : "mwm_diff::@4c3f3f2afe6452cda077",
+					"jsonFile" : "target-mwm_diff-RelWithDebInfo-0e9f03e3a1438f1aec6d.json",
+					"name" : "mwm_diff",
+					"projectIndex" : 26
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "oauthcpp::@0699ac01ed72c041e9e0",
+					"jsonFile" : "target-oauthcpp-RelWithDebInfo-414edeffe0de4a9c7016.json",
+					"name" : "oauthcpp",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "opening_hours::@9cd6d79fbeac61602137",
+					"jsonFile" : "target-opening_hours-RelWithDebInfo-a3a20c22440e9b60ea21.json",
+					"name" : "opening_hours",
+					"projectIndex" : 14
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "openlocationcode::@fc2b449f292b0ea32607",
+					"jsonFile" : "target-openlocationcode-RelWithDebInfo-e36cd889981269231044.json",
+					"name" : "openlocationcode",
+					"projectIndex" : 13
+				},
+				{
+					"directoryIndex" : 44,
+					"id" : "organicmaps::@c63f928fbae149c7160b",
+					"jsonFile" : "target-organicmaps-RelWithDebInfo-8fa7e2efd0dbc8b91840.json",
+					"name" : "organicmaps",
+					"projectIndex" : 42
+				},
+				{
+					"directoryIndex" : 35,
+					"id" : "platform::@06522778d3acbe1b37c9",
+					"jsonFile" : "target-platform-RelWithDebInfo-15df31dc50396930d19e.json",
+					"name" : "platform",
+					"projectIndex" : 33
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "protobuf::@5fdd12ad44f2b86368cb",
+					"jsonFile" : "target-protobuf-RelWithDebInfo-4a3fee3582297a5f3213.json",
+					"name" : "protobuf",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "pugixml::@348c60c54c5a688813b1",
+					"jsonFile" : "target-pugixml-RelWithDebInfo-5086878e5c2ead557846.json",
+					"name" : "pugixml",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 29,
+					"id" : "pymwm_diff::@3c06b0a8338fadd30b60",
+					"jsonFile" : "target-pymwm_diff-RelWithDebInfo-bf75bd08fd2df8c315e9.json",
+					"name" : "pymwm_diff",
+					"projectIndex" : 27
+				},
+				{
+					"directoryIndex" : 36,
+					"id" : "routing::@2edf95b1ca8f5bcdf920",
+					"jsonFile" : "target-routing-RelWithDebInfo-5d587ebd8f6cd68916a0.json",
+					"name" : "routing",
+					"projectIndex" : 34
+				},
+				{
+					"directoryIndex" : 37,
+					"id" : "routing_common::@2d2723bc4bea211234de",
+					"jsonFile" : "target-routing_common-RelWithDebInfo-90041c07af9a00b220b6.json",
+					"name" : "routing_common",
+					"projectIndex" : 35
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "sdf_image::@00066329211b93b2f422",
+					"jsonFile" : "target-sdf_image-RelWithDebInfo-f5e3f6f5a24240f24999.json",
+					"name" : "sdf_image",
+					"projectIndex" : 15
+				},
+				{
+					"directoryIndex" : 38,
+					"id" : "search::@b3e4e3481926c17d0075",
+					"jsonFile" : "target-search-RelWithDebInfo-44769fe3c4fdb4e8a655.json",
+					"name" : "search",
+					"projectIndex" : 36
+				},
+				{
+					"directoryIndex" : 39,
+					"id" : "shaders::@8132085bf3b90c3252db",
+					"jsonFile" : "target-shaders-RelWithDebInfo-8c3c2518870645915abc.json",
+					"name" : "shaders",
+					"projectIndex" : 37
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "stb_image::@821502f4bc0e17a6b558",
+					"jsonFile" : "target-stb_image-RelWithDebInfo-b233a723a41df437323c.json",
+					"name" : "stb_image",
+					"projectIndex" : 16
+				},
+				{
+					"directoryIndex" : 40,
+					"id" : "storage::@78361d3913668f02dc91",
+					"jsonFile" : "target-storage-RelWithDebInfo-61577a5e8c6534148b75.json",
+					"name" : "storage",
+					"projectIndex" : 38
+				},
+				{
+					"directoryIndex" : 19,
+					"id" : "succinct::@1c6db56d7a868de08fac",
+					"jsonFile" : "target-succinct-RelWithDebInfo-f1fe2b85e3edab5dfd93.json",
+					"name" : "succinct",
+					"projectIndex" : 17
+				},
+				{
+					"directoryIndex" : 41,
+					"id" : "tracking::@318ea532d6241cdbd0d5",
+					"jsonFile" : "target-tracking-RelWithDebInfo-dd6a602cb6d5c9e91925.json",
+					"name" : "tracking",
+					"projectIndex" : 39
+				},
+				{
+					"directoryIndex" : 42,
+					"id" : "traffic::@ef693e1ba9651bca7d18",
+					"jsonFile" : "target-traffic-RelWithDebInfo-72080fe6aea045b61edb.json",
+					"name" : "traffic",
+					"projectIndex" : 40
+				},
+				{
+					"directoryIndex" : 43,
+					"id" : "transit::@aadc42b695b31f1f2bfa",
+					"jsonFile" : "target-transit-RelWithDebInfo-3c9de618ba975c3ea1c9.json",
+					"name" : "transit",
+					"projectIndex" : 41
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "vulkan_wrapper::@653f93dd178152ddc44a",
+					"jsonFile" : "target-vulkan_wrapper-RelWithDebInfo-71c33a8823e4c9b13fc5.json",
+					"name" : "vulkan_wrapper",
+					"projectIndex" : 18
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64",
+		"source" : "D:/Projects Git/organicmaps"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

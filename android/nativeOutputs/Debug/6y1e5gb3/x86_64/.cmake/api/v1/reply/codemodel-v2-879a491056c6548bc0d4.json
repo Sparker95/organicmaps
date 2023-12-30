@@ -1,0 +1,1614 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "3party",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-3party-Debug-44d5c99cf8a9d18fbca6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "3party"
+				},
+				{
+					"build" : "3party/expat/expat",
+					"jsonFile" : "directory-3party.expat.expat-Debug-3e3760320565420365e2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.3"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "3party/expat/expat",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "3party/jansson/jansson",
+					"jsonFile" : "directory-3party.jansson.jansson-Debug-0e73e74144d90ec93751.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "3party/jansson/jansson",
+					"targetIndexes" : 
+					[
+						18
+					]
+				},
+				{
+					"build" : "3party/gflags",
+					"jsonFile" : "directory-3party.gflags-Debug-69d05faae98ce6a55403.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.2"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 3,
+					"source" : "3party/gflags",
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"build" : "3party/pugixml",
+					"jsonFile" : "directory-3party.pugixml-Debug-42de9412d0f23fdef25e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 4,
+					"source" : "3party/pugixml",
+					"targetIndexes" : 
+					[
+						29
+					]
+				},
+				{
+					"build" : "3party/protobuf",
+					"jsonFile" : "directory-3party.protobuf-Debug-0a400739a49167d58e98.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 5,
+					"source" : "3party/protobuf",
+					"targetIndexes" : 
+					[
+						28
+					]
+				},
+				{
+					"build" : "3party/agg",
+					"jsonFile" : "directory-3party.agg-Debug-d6117f1fce6de686bb04.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 6,
+					"source" : "3party/agg",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "3party/bsdiff-courgette",
+					"jsonFile" : "directory-3party.bsdiff-courgette-Debug-9798a2f6c51b090fd220.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 7,
+					"source" : "3party/bsdiff-courgette",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "3party/freetype",
+					"childIndexes" : 
+					[
+						10
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-3party.freetype-Debug-b356b5c466f013a4a2e7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "3party/freetype"
+				},
+				{
+					"build" : "3party/freetype/freetype",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-3party.freetype.freetype-Debug-c6490c5a65b5c175abdb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 8,
+					"source" : "3party/freetype/freetype",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "3party/icu",
+					"jsonFile" : "directory-3party.icu-Debug-207802fdfbe4a2998290.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 9,
+					"source" : "3party/icu",
+					"targetIndexes" : 
+					[
+						15,
+						16
+					]
+				},
+				{
+					"build" : "3party/harfbuzz",
+					"jsonFile" : "directory-3party.harfbuzz-Debug-cf92ebd9f92c3e4c60d7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 10,
+					"source" : "3party/harfbuzz",
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"build" : "3party/liboauthcpp",
+					"jsonFile" : "directory-3party.liboauthcpp-Debug-aa7a24f370c59c4bca2e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 11,
+					"source" : "3party/liboauthcpp",
+					"targetIndexes" : 
+					[
+						23
+					]
+				},
+				{
+					"build" : "3party/minizip",
+					"jsonFile" : "directory-3party.minizip-Debug-4757d82fa6207b3a40f5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 12,
+					"source" : "3party/minizip",
+					"targetIndexes" : 
+					[
+						21
+					]
+				},
+				{
+					"build" : "3party/open-location-code",
+					"jsonFile" : "directory-3party.open-location-code-Debug-71097600df4054968f71.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 13,
+					"source" : "3party/open-location-code",
+					"targetIndexes" : 
+					[
+						25
+					]
+				},
+				{
+					"build" : "3party/opening_hours",
+					"jsonFile" : "directory-3party.opening_hours-Debug-6eb38ff3581edfe982cb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 14,
+					"source" : "3party/opening_hours",
+					"targetIndexes" : 
+					[
+						24
+					]
+				},
+				{
+					"build" : "3party/sdf_image",
+					"jsonFile" : "directory-3party.sdf_image-Debug-6d3b278d8ce703075264.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 15,
+					"source" : "3party/sdf_image",
+					"targetIndexes" : 
+					[
+						33
+					]
+				},
+				{
+					"build" : "3party/stb_image",
+					"jsonFile" : "directory-3party.stb_image-Debug-c184f22ba22d75867577.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 16,
+					"source" : "3party/stb_image",
+					"targetIndexes" : 
+					[
+						36
+					]
+				},
+				{
+					"build" : "3party/succinct",
+					"jsonFile" : "directory-3party.succinct-Debug-c10c8c81cd368ff19854.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 17,
+					"source" : "3party/succinct",
+					"targetIndexes" : 
+					[
+						38
+					]
+				},
+				{
+					"build" : "3party/vulkan_wrapper",
+					"jsonFile" : "directory-3party.vulkan_wrapper-Debug-b2c9af0e7683b748fb2a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 18,
+					"source" : "3party/vulkan_wrapper",
+					"targetIndexes" : 
+					[
+						42
+					]
+				},
+				{
+					"build" : "base",
+					"jsonFile" : "directory-base-Debug-554918083650b4e24ef4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 19,
+					"source" : "base",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "coding",
+					"jsonFile" : "directory-coding-Debug-ca0f70faccdd4bee04c8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 20,
+					"source" : "coding",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "descriptions",
+					"jsonFile" : "directory-descriptions-Debug-0c0cc3e67679aef7dc70.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 21,
+					"source" : "descriptions",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "drape",
+					"jsonFile" : "directory-drape-Debug-f95e3423409bcc345f35.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 22,
+					"source" : "drape",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "drape_frontend",
+					"jsonFile" : "directory-drape_frontend-Debug-40b3941ee41b0c3d18a5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 23,
+					"source" : "drape_frontend",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "editor",
+					"jsonFile" : "directory-editor-Debug-f0e908b7e5506a789932.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 24,
+					"source" : "editor",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "ge0",
+					"jsonFile" : "directory-ge0-Debug-736651ada46c87922eaf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 25,
+					"source" : "ge0",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "generator/mwm_diff",
+					"childIndexes" : 
+					[
+						29
+					],
+					"jsonFile" : "directory-generator.mwm_diff-Debug-c980a73110c53b5854c5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 26,
+					"source" : "generator/mwm_diff",
+					"targetIndexes" : 
+					[
+						22
+					]
+				},
+				{
+					"build" : "generator/mwm_diff/mwm_diff_tool",
+					"jsonFile" : "directory-generator.mwm_diff.mwm_diff_tool-Debug-84d3a3c58ebed049ea1d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 28,
+					"projectIndex" : 27,
+					"source" : "generator/mwm_diff/mwm_diff_tool",
+					"targetIndexes" : 
+					[
+						30
+					]
+				},
+				{
+					"build" : "geometry",
+					"jsonFile" : "directory-geometry-Debug-76ea87e05cd74d9bdd88.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 28,
+					"source" : "geometry",
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"build" : "indexer",
+					"jsonFile" : "directory-indexer-Debug-d95eb8bd41a58c3e12b6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 29,
+					"source" : "indexer",
+					"targetIndexes" : 
+					[
+						17
+					]
+				},
+				{
+					"build" : "kml",
+					"jsonFile" : "directory-kml-Debug-1357989783a584338878.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 30,
+					"source" : "kml",
+					"targetIndexes" : 
+					[
+						19
+					]
+				},
+				{
+					"build" : "map",
+					"jsonFile" : "directory-map-Debug-a75855965a43ceb767fb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 31,
+					"source" : "map",
+					"targetIndexes" : 
+					[
+						20
+					]
+				},
+				{
+					"build" : "cppjansson",
+					"jsonFile" : "directory-cppjansson-Debug-5e7d2e0749403c192850.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 32,
+					"source" : "cppjansson",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "platform",
+					"jsonFile" : "directory-platform-Debug-c3ab5af9276018affe88.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 33,
+					"source" : "platform",
+					"targetIndexes" : 
+					[
+						27
+					]
+				},
+				{
+					"build" : "routing",
+					"jsonFile" : "directory-routing-Debug-fcee5a765dd767bccdf4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 34,
+					"source" : "routing",
+					"targetIndexes" : 
+					[
+						31
+					]
+				},
+				{
+					"build" : "routing_common",
+					"jsonFile" : "directory-routing_common-Debug-00a3cee5b4dc2fe50654.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 35,
+					"source" : "routing_common",
+					"targetIndexes" : 
+					[
+						32
+					]
+				},
+				{
+					"build" : "search",
+					"jsonFile" : "directory-search-Debug-89105324b39aa02ee036.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 36,
+					"source" : "search",
+					"targetIndexes" : 
+					[
+						34
+					]
+				},
+				{
+					"build" : "shaders",
+					"jsonFile" : "directory-shaders-Debug-f8e302432518b1289d1e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 37,
+					"source" : "shaders",
+					"targetIndexes" : 
+					[
+						35
+					]
+				},
+				{
+					"build" : "storage",
+					"jsonFile" : "directory-storage-Debug-f31e61951c0b2e7ddb51.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 38,
+					"source" : "storage",
+					"targetIndexes" : 
+					[
+						37
+					]
+				},
+				{
+					"build" : "tracking",
+					"jsonFile" : "directory-tracking-Debug-f0f2648db982a6896a98.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 39,
+					"source" : "tracking",
+					"targetIndexes" : 
+					[
+						39
+					]
+				},
+				{
+					"build" : "traffic",
+					"jsonFile" : "directory-traffic-Debug-b23b16a3dc1496740b50.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 40,
+					"source" : "traffic",
+					"targetIndexes" : 
+					[
+						40
+					]
+				},
+				{
+					"build" : "transit",
+					"jsonFile" : "directory-transit-Debug-d1b78e58d113b25a325a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 41,
+					"source" : "transit",
+					"targetIndexes" : 
+					[
+						41
+					]
+				},
+				{
+					"build" : "android/jni",
+					"jsonFile" : "directory-android.jni-Debug-1061ee7a0f739b9b46fb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 42,
+					"source" : "android/jni",
+					"targetIndexes" : 
+					[
+						26
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						9
+					],
+					"name" : "omim"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "expat",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "jansson",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						18
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "gflags",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "pugixml",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						29
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "protobuf",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						28
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "agg",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "bsdiff",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						10
+					],
+					"name" : "freetype",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						11
+					],
+					"name" : "icu",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						15,
+						16
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						12
+					],
+					"name" : "harfbuzz",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						13
+					],
+					"name" : "oauthcpp",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						23
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						14
+					],
+					"name" : "minizip",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						21
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						15
+					],
+					"name" : "openlocationcode",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						25
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						16
+					],
+					"name" : "opening_hours",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						24
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						17
+					],
+					"name" : "sdf_image",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						33
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						18
+					],
+					"name" : "stb_image",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						36
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						19
+					],
+					"name" : "succinct",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						38
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						20
+					],
+					"name" : "vulkan_wrapper",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						42
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						21
+					],
+					"name" : "base",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						22
+					],
+					"name" : "coding",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						23
+					],
+					"name" : "descriptions",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						24
+					],
+					"name" : "drape",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						25
+					],
+					"name" : "drape_frontend",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						26
+					],
+					"name" : "editor",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						27
+					],
+					"name" : "ge0",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						27
+					],
+					"directoryIndexes" : 
+					[
+						28
+					],
+					"name" : "mwm_diff",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						22
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						29
+					],
+					"name" : "pymwm_diff",
+					"parentIndex" : 26,
+					"targetIndexes" : 
+					[
+						30
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						30
+					],
+					"name" : "geometry",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						31
+					],
+					"name" : "indexer",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						17
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						32
+					],
+					"name" : "kml",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						19
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						33
+					],
+					"name" : "map",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						20
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						34
+					],
+					"name" : "cppjansson",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						35
+					],
+					"name" : "platform",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						27
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						36
+					],
+					"name" : "routing",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						31
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						37
+					],
+					"name" : "routing_common",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						32
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						38
+					],
+					"name" : "search",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						34
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						39
+					],
+					"name" : "shaders",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						35
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						40
+					],
+					"name" : "storage",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						37
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						41
+					],
+					"name" : "tracking",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						39
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						42
+					],
+					"name" : "traffic",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						40
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						43
+					],
+					"name" : "transit",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						41
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						44
+					],
+					"name" : "organicmaps",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						26
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 7,
+					"id" : "agg::@d1951b0442ceb992a719",
+					"jsonFile" : "target-agg-Debug-3fb228149b4f667d1b9c.json",
+					"name" : "agg",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 21,
+					"id" : "base::@4506b02e7a4fef989908",
+					"jsonFile" : "target-base-Debug-87ecd1da94824925947e.json",
+					"name" : "base",
+					"projectIndex" : 19
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "bsdiff::@9daa88e972815e1f384e",
+					"jsonFile" : "target-bsdiff-Debug-67bd5c6c7a34cc9b3382.json",
+					"name" : "bsdiff",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 22,
+					"id" : "coding::@60bcc26dbc144f002396",
+					"jsonFile" : "target-coding-Debug-13922aec2d33d4169d87.json",
+					"name" : "coding",
+					"projectIndex" : 20
+				},
+				{
+					"directoryIndex" : 34,
+					"id" : "cppjansson::@d77058f0fcd7a34f6d73",
+					"jsonFile" : "target-cppjansson-Debug-b654ac636618a537364b.json",
+					"name" : "cppjansson",
+					"projectIndex" : 32
+				},
+				{
+					"directoryIndex" : 23,
+					"id" : "descriptions::@f9c978e907e47652bd69",
+					"jsonFile" : "target-descriptions-Debug-0422b34d3a7a00844b39.json",
+					"name" : "descriptions",
+					"projectIndex" : 21
+				},
+				{
+					"directoryIndex" : 24,
+					"id" : "drape::@2ed09f975a1abd35a830",
+					"jsonFile" : "target-drape-Debug-981ea9c18173bf3bef01.json",
+					"name" : "drape",
+					"projectIndex" : 22
+				},
+				{
+					"directoryIndex" : 25,
+					"id" : "drape_frontend::@1b37d6fbdc14c626c38a",
+					"jsonFile" : "target-drape_frontend-Debug-0b4bd2ec8953b39b4259.json",
+					"name" : "drape_frontend",
+					"projectIndex" : 23
+				},
+				{
+					"directoryIndex" : 26,
+					"id" : "editor::@ed37844f285895dce70e",
+					"jsonFile" : "target-editor-Debug-58c392d0ebceb5ffe4e8.json",
+					"name" : "editor",
+					"projectIndex" : 24
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "expat::@dc85a0b6f66c39b32454",
+					"jsonFile" : "target-expat-Debug-03dda1eac4274f0e3393.json",
+					"name" : "expat",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "freetype::@0f29e336c249c80ede9d",
+					"jsonFile" : "target-freetype-Debug-425f1907cb132c189423.json",
+					"name" : "freetype",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 27,
+					"id" : "ge0::@1da94f5d20bc972d6d32",
+					"jsonFile" : "target-ge0-Debug-b3c23e91696216eb2ad1.json",
+					"name" : "ge0",
+					"projectIndex" : 25
+				},
+				{
+					"directoryIndex" : 30,
+					"id" : "geometry::@60d41218eef6b4657a56",
+					"jsonFile" : "target-geometry-Debug-4b05aefa3798fef32490.json",
+					"name" : "geometry",
+					"projectIndex" : 28
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "gflags_nothreads_static::@1fc8ae345c4e6915cf1b",
+					"jsonFile" : "target-gflags_nothreads_static-Debug-dffeef1095fc2a1c4f90.json",
+					"name" : "gflags_nothreads_static",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "harfbuzz::@56d4677668c020a6400c",
+					"jsonFile" : "target-harfbuzz-Debug-80b2d9c128005e00782d.json",
+					"name" : "harfbuzz",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "icui18n::@8f7e0e3fcd7b0f7ba9cb",
+					"jsonFile" : "target-icui18n-Debug-cbf9b12aa4bde1f575c7.json",
+					"name" : "icui18n",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "icuuc::@8f7e0e3fcd7b0f7ba9cb",
+					"jsonFile" : "target-icuuc-Debug-3a2233734a35b2c9abb4.json",
+					"name" : "icuuc",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 31,
+					"id" : "indexer::@eae5087a5c346f531194",
+					"jsonFile" : "target-indexer-Debug-c4ba54789b80fa0c7784.json",
+					"name" : "indexer",
+					"projectIndex" : 29
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "jansson::@69444fecc8a3523fc1b7",
+					"jsonFile" : "target-jansson-Debug-a4d2a10193f653775f46.json",
+					"name" : "jansson",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 32,
+					"id" : "kml::@0ced2ce8ef2b090005bf",
+					"jsonFile" : "target-kml-Debug-1dad255563481a88e2b5.json",
+					"name" : "kml",
+					"projectIndex" : 30
+				},
+				{
+					"directoryIndex" : 33,
+					"id" : "map::@afb660f44a3db5ed153e",
+					"jsonFile" : "target-map-Debug-078129e52b8b4bb9813a.json",
+					"name" : "map",
+					"projectIndex" : 31
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "minizip::@2bcf17b52364be14ece1",
+					"jsonFile" : "target-minizip-Debug-35fe9d8d7fbdbabf05a0.json",
+					"name" : "minizip",
+					"projectIndex" : 12
+				},
+				{
+					"directoryIndex" : 28,
+					"id" : "mwm_diff::@4c3f3f2afe6452cda077",
+					"jsonFile" : "target-mwm_diff-Debug-47c5d12c69a99fe8627e.json",
+					"name" : "mwm_diff",
+					"projectIndex" : 26
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "oauthcpp::@0699ac01ed72c041e9e0",
+					"jsonFile" : "target-oauthcpp-Debug-d6a479395590b602329b.json",
+					"name" : "oauthcpp",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "opening_hours::@9cd6d79fbeac61602137",
+					"jsonFile" : "target-opening_hours-Debug-99f844278d8b2a1112b3.json",
+					"name" : "opening_hours",
+					"projectIndex" : 14
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "openlocationcode::@fc2b449f292b0ea32607",
+					"jsonFile" : "target-openlocationcode-Debug-b79354b6eaf37bc1ffeb.json",
+					"name" : "openlocationcode",
+					"projectIndex" : 13
+				},
+				{
+					"directoryIndex" : 44,
+					"id" : "organicmaps::@c63f928fbae149c7160b",
+					"jsonFile" : "target-organicmaps-Debug-d5f98df1890bdaa71513.json",
+					"name" : "organicmaps",
+					"projectIndex" : 42
+				},
+				{
+					"directoryIndex" : 35,
+					"id" : "platform::@06522778d3acbe1b37c9",
+					"jsonFile" : "target-platform-Debug-fc2134980e9e08f172da.json",
+					"name" : "platform",
+					"projectIndex" : 33
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "protobuf::@5fdd12ad44f2b86368cb",
+					"jsonFile" : "target-protobuf-Debug-c982eb77122b111f2eba.json",
+					"name" : "protobuf",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "pugixml::@348c60c54c5a688813b1",
+					"jsonFile" : "target-pugixml-Debug-b1ba05854861b9ec4a59.json",
+					"name" : "pugixml",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 29,
+					"id" : "pymwm_diff::@3c06b0a8338fadd30b60",
+					"jsonFile" : "target-pymwm_diff-Debug-d43b0ff9576836438e55.json",
+					"name" : "pymwm_diff",
+					"projectIndex" : 27
+				},
+				{
+					"directoryIndex" : 36,
+					"id" : "routing::@2edf95b1ca8f5bcdf920",
+					"jsonFile" : "target-routing-Debug-d4a1e6b2029d66984bf9.json",
+					"name" : "routing",
+					"projectIndex" : 34
+				},
+				{
+					"directoryIndex" : 37,
+					"id" : "routing_common::@2d2723bc4bea211234de",
+					"jsonFile" : "target-routing_common-Debug-e998a5795e30d843c3ac.json",
+					"name" : "routing_common",
+					"projectIndex" : 35
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "sdf_image::@00066329211b93b2f422",
+					"jsonFile" : "target-sdf_image-Debug-45aa114ecb1a3e8c39f9.json",
+					"name" : "sdf_image",
+					"projectIndex" : 15
+				},
+				{
+					"directoryIndex" : 38,
+					"id" : "search::@b3e4e3481926c17d0075",
+					"jsonFile" : "target-search-Debug-5a0313ad76f4b2568f6e.json",
+					"name" : "search",
+					"projectIndex" : 36
+				},
+				{
+					"directoryIndex" : 39,
+					"id" : "shaders::@8132085bf3b90c3252db",
+					"jsonFile" : "target-shaders-Debug-09462598798db8518db8.json",
+					"name" : "shaders",
+					"projectIndex" : 37
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "stb_image::@821502f4bc0e17a6b558",
+					"jsonFile" : "target-stb_image-Debug-0fdfeda7ab60e8f413ea.json",
+					"name" : "stb_image",
+					"projectIndex" : 16
+				},
+				{
+					"directoryIndex" : 40,
+					"id" : "storage::@78361d3913668f02dc91",
+					"jsonFile" : "target-storage-Debug-c6da9b80c813eae0aaca.json",
+					"name" : "storage",
+					"projectIndex" : 38
+				},
+				{
+					"directoryIndex" : 19,
+					"id" : "succinct::@1c6db56d7a868de08fac",
+					"jsonFile" : "target-succinct-Debug-660d07fa7ed221e58699.json",
+					"name" : "succinct",
+					"projectIndex" : 17
+				},
+				{
+					"directoryIndex" : 41,
+					"id" : "tracking::@318ea532d6241cdbd0d5",
+					"jsonFile" : "target-tracking-Debug-8449eec24daeafbb3d1f.json",
+					"name" : "tracking",
+					"projectIndex" : 39
+				},
+				{
+					"directoryIndex" : 42,
+					"id" : "traffic::@ef693e1ba9651bca7d18",
+					"jsonFile" : "target-traffic-Debug-868a4af94360486a619c.json",
+					"name" : "traffic",
+					"projectIndex" : 40
+				},
+				{
+					"directoryIndex" : 43,
+					"id" : "transit::@aadc42b695b31f1f2bfa",
+					"jsonFile" : "target-transit-Debug-83eee4465932c90614cd.json",
+					"name" : "transit",
+					"projectIndex" : 41
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "vulkan_wrapper::@653f93dd178152ddc44a",
+					"jsonFile" : "target-vulkan_wrapper-Debug-42826798079f15e150d5.json",
+					"name" : "vulkan_wrapper",
+					"projectIndex" : 18
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Projects Git/organicmaps/android/nativeOutputs/Debug/6y1e5gb3/x86_64",
+		"source" : "D:/Projects Git/organicmaps"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

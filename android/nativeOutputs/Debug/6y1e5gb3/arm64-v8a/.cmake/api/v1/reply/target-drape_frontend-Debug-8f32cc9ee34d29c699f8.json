@@ -1,0 +1,1646 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "libdrape_frontend.a"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"omim_add_library",
+			"target_link_libraries",
+			"add_compile_options",
+			"target_compile_options",
+			"add_definitions",
+			"include_directories",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"cmake/OmimHelpers.cmake",
+			"drape_frontend/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 211,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 71,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 213,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 51,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 107,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 74,
+				"parent" : 1
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 111,
+				"parent" : 4
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 256,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 75,
+				"parent" : 1
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fexceptions -frtti -fno-limit-debug-info  -fPIC   -fno-omit-frame-pointer"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-fcolor-diagnostics"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-ffast-math"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wpedantic"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wno-unused-parameter"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-pthread"
+				},
+				{
+					"fragment" : "-std=c++17"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 8,
+					"define" : "DEBUG"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "UCONFIG_USE_LOCAL"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "USE_FILE32API"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 9,
+					"path" : "D:/Projects Git/organicmaps"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/Projects Git/organicmaps/3party/expat/expat/lib"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/Projects Git/organicmaps/android/nativeOutputs/Debug/6y1e5gb3/arm64-v8a/3party/expat/expat"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/Projects Git/organicmaps/android/nativeOutputs/Debug/6y1e5gb3/arm64-v8a/3party/jansson/jansson/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/Projects Git/organicmaps/3party/icu/."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/Projects Git/organicmaps/3party/icu/icu/icu4c/source/common"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/Projects Git/organicmaps/3party/icu/icu/icu4c/source/i18n"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/Projects Git/organicmaps/3party/liboauthcpp/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/Projects Git/organicmaps/3party/protobuf/protobuf/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/Projects Git/organicmaps/3party/opening_hours/."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/Projects Git/organicmaps/3party/pugixml/pugixml/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/Projects Git/organicmaps/3party/glm"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/Projects Git/organicmaps/3party/freetype"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/Projects Git/organicmaps/android/nativeOutputs/Debug/6y1e5gb3/arm64-v8a/3party/freetype/freetype/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/Projects Git/organicmaps/3party/freetype/freetype/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/Projects Git/organicmaps/3party/vulkan_wrapper/."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/Projects Git/organicmaps/3party/vulkan_wrapper/../Vulkan-Headers/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/Projects Git/organicmaps/3party/harfbuzz/harfbuzz/src"
+				},
+				{
+					"backtrace" : 10,
+					"isSystem" : true,
+					"path" : "D:/Projects Git/organicmaps/3party/boost"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			],
+			"sysroot" : 
+			{
+				"path" : "C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot"
+			}
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "jansson::@69444fecc8a3523fc1b7"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "expat::@dc85a0b6f66c39b32454"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "protobuf::@5fdd12ad44f2b86368cb"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "pugixml::@348c60c54c5a688813b1"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "bsdiff::@9daa88e972815e1f384e"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "freetype::@0f29e336c249c80ede9d"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "icuuc::@8f7e0e3fcd7b0f7ba9cb"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "icui18n::@8f7e0e3fcd7b0f7ba9cb"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "harfbuzz::@56d4677668c020a6400c"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "oauthcpp::@0699ac01ed72c041e9e0"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "minizip::@2bcf17b52364be14ece1"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "opening_hours::@9cd6d79fbeac61602137"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "openlocationcode::@fc2b449f292b0ea32607"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "sdf_image::@00066329211b93b2f422"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "succinct::@1c6db56d7a868de08fac"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "stb_image::@821502f4bc0e17a6b558"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "coding::@60bcc26dbc144f002396"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "vulkan_wrapper::@653f93dd178152ddc44a"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "base::@4506b02e7a4fef989908"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "drape::@2ed09f975a1abd35a830"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "ge0::@1da94f5d20bc972d6d32"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "editor::@ed37844f285895dce70e"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "mwm_diff::@4c3f3f2afe6452cda077"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "geometry::@60d41218eef6b4657a56"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "platform::@06522778d3acbe1b37c9"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "cppjansson::@d77058f0fcd7a34f6d73"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "routing_common::@2d2723bc4bea211234de"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "shaders::@8132085bf3b90c3252db"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "traffic::@ef693e1ba9651bca7d18"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "storage::@78361d3913668f02dc91"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "transit::@aadc42b695b31f1f2bfa"
+		}
+	],
+	"id" : "drape_frontend::@1b37d6fbdc14c626c38a",
+	"name" : "drape_frontend",
+	"nameOnDisk" : "libdrape_frontend.a",
+	"paths" : 
+	{
+		"build" : "drape_frontend",
+		"source" : "drape_frontend"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				4,
+				6,
+				8,
+				10,
+				12,
+				14,
+				16,
+				18,
+				20,
+				22,
+				24,
+				26,
+				30,
+				32,
+				34,
+				36,
+				38,
+				40,
+				42,
+				46,
+				48,
+				50,
+				53,
+				55,
+				57,
+				59,
+				61,
+				66,
+				68,
+				70,
+				73,
+				76,
+				78,
+				80,
+				82,
+				84,
+				86,
+				88,
+				90,
+				92,
+				94,
+				97,
+				99,
+				101,
+				103,
+				105,
+				107,
+				110,
+				112,
+				114,
+				117,
+				119,
+				121,
+				123,
+				125,
+				127,
+				129,
+				131,
+				133,
+				135,
+				137,
+				139,
+				141,
+				143,
+				145,
+				148,
+				150,
+				152,
+				154,
+				156,
+				158,
+				160,
+				162,
+				164,
+				166,
+				168,
+				170,
+				173,
+				175,
+				177,
+				179,
+				181,
+				183,
+				185,
+				187,
+				189,
+				191,
+				193,
+				195,
+				197,
+				199,
+				201,
+				203,
+				205
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				3,
+				5,
+				7,
+				9,
+				11,
+				13,
+				15,
+				17,
+				19,
+				21,
+				23,
+				25,
+				27,
+				28,
+				29,
+				31,
+				33,
+				35,
+				37,
+				39,
+				41,
+				43,
+				44,
+				45,
+				47,
+				49,
+				51,
+				52,
+				54,
+				56,
+				58,
+				60,
+				62,
+				63,
+				64,
+				65,
+				67,
+				69,
+				71,
+				72,
+				74,
+				75,
+				77,
+				79,
+				81,
+				83,
+				85,
+				87,
+				89,
+				91,
+				93,
+				95,
+				96,
+				98,
+				100,
+				102,
+				104,
+				106,
+				108,
+				109,
+				111,
+				113,
+				115,
+				116,
+				118,
+				120,
+				122,
+				124,
+				126,
+				128,
+				130,
+				132,
+				134,
+				136,
+				138,
+				140,
+				142,
+				144,
+				146,
+				147,
+				149,
+				151,
+				153,
+				155,
+				157,
+				159,
+				161,
+				163,
+				165,
+				167,
+				169,
+				171,
+				172,
+				174,
+				176,
+				178,
+				180,
+				182,
+				184,
+				186,
+				188,
+				190,
+				192,
+				194,
+				196,
+				198,
+				200,
+				202,
+				204,
+				206
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"path" : "android/nativeOutputs/Debug/6y1e5gb3/arm64-v8a/drape_frontend/CMakeFiles/drape_frontend.dir/Unity/unity_1_cxx.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"path" : "android/nativeOutputs/Debug/6y1e5gb3/arm64-v8a/drape_frontend/CMakeFiles/drape_frontend.dir/Unity/unity_0_cxx.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/animation/animation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/animation/animation.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/animation/arrow_animation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/animation/arrow_animation.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/animation/base_interpolator.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/animation/base_interpolator.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/animation/follow_animation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/animation/follow_animation.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/animation/interpolation_holder.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/animation/interpolation_holder.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/animation/interpolations.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/animation/interpolations.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/animation/interpolators.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/animation/interpolators.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/animation/linear_animation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/animation/linear_animation.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/animation/opacity_animation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/animation/opacity_animation.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/animation/parallel_animation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/animation/parallel_animation.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/animation/scale_animation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/animation/scale_animation.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/animation/sequence_animation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/animation/sequence_animation.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/animation/show_hide_animation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/animation/show_hide_animation.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/animation/value_mapping.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/animation_constants.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/animation_system.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/animation_system.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/animation_utils.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/animation_utils.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/apply_feature_functors.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/apply_feature_functors.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/area_shape.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/area_shape.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/arrow3d.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/arrow3d.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/backend_renderer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/backend_renderer.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/base_renderer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/base_renderer.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/batcher_bucket.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/batchers_pool.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/circles_pack_shape.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/circles_pack_shape.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/color_constants.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/color_constants.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/colored_symbol_shape.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/colored_symbol_shape.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/custom_features_context.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/debug_rect_renderer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/debug_rect_renderer.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/drape_api.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/drape_api.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/drape_api_builder.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/drape_api_builder.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/drape_api_renderer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/drape_api_renderer.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/drape_engine.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/drape_engine.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/drape_engine_params.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/drape_engine_safe_ptr.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/drape_hints.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/drape_notifier.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/drape_notifier.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/drape_measurer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/drape_measurer.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/engine_context.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/engine_context.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/frame_values.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/frontend_renderer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/frontend_renderer.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/gps_track_point.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/gps_track_renderer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/gps_track_renderer.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/gui/choose_position_mark.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/gui/choose_position_mark.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/gui/compass.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/gui/compass.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/gui/copyright_label.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/gui/copyright_label.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/gui/debug_label.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/gui/debug_label.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/gui/drape_gui.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/gui/drape_gui.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/gui/gui_text.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/gui/gui_text.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/gui/layer_render.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/gui/layer_render.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/gui/ruler.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/gui/ruler.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/gui/ruler_helper.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/gui/ruler_helper.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/gui/scale_fps_helper.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/gui/shape.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/gui/shape.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/gui/skin.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/gui/skin.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/kinetic_scroller.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/kinetic_scroller.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/line_shape.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/line_shape.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/line_shape_helper.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/line_shape_helper.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/map_data_provider.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/map_data_provider.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/map_shape.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/message.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/message.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/message_acceptor.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/message_acceptor.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/message_queue.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/message_queue.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/message_subclasses.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/metaline_manager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/metaline_manager.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/my_position.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/my_position.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/my_position_controller.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/my_position_controller.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/navigator.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/navigator.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/overlay_batcher.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/overlay_batcher.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/overlays_tracker.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/overlays_tracker.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/path_symbol_shape.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/path_symbol_shape.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/path_text_handle.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/path_text_handle.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/path_text_shape.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/path_text_shape.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/poi_symbol_shape.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/poi_symbol_shape.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/postprocess_renderer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/postprocess_renderer.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/read_manager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/read_manager.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/read_metaline_task.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/read_metaline_task.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/read_mwm_task.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/read_mwm_task.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/render_group.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/render_group.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/render_node.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/render_state_extension.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/render_state_extension.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/requested_tiles.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/requested_tiles.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/route_builder.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/route_builder.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/route_renderer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/route_renderer.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/route_shape.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/route_shape.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/rule_drawer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/rule_drawer.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/scenario_manager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/scenario_manager.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/screen_animations.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/screen_animations.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/screen_operations.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/screen_operations.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/screen_quad_renderer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/screen_quad_renderer.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/selection_shape.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/selection_shape.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/selection_shape_generator.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/selection_shape_generator.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/shape_view_params.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/stylist.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/stylist.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/text_handle.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/text_handle.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/text_layout.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/text_layout.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/text_shape.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/text_shape.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/threads_commutator.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/threads_commutator.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/tile_info.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/tile_info.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/tile_key.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/tile_key.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/tile_utils.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/tile_utils.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/traffic_generator.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/traffic_generator.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/traffic_renderer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/traffic_renderer.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/transit_scheme_builder.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/transit_scheme_builder.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/transit_scheme_renderer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/transit_scheme_renderer.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/user_event_stream.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/user_event_stream.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/user_mark_generator.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/user_mark_generator.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/user_mark_shapes.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/user_mark_shapes.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/user_marks_provider.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/user_marks_provider.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/visual_params.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "drape_frontend/visual_params.hpp",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

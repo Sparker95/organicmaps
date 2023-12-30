@@ -1,0 +1,1363 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "libicuuc.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"add_compile_options",
+			"add_definitions",
+			"target_compile_definitions",
+			"include_directories",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"3party/icu/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 51,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 107,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 114,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 113,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 181,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 256,
+				"parent" : 2
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 175,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -fexceptions -frtti -O2 -g -DNDEBUG -fPIC"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fcolor-diagnostics"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-ffast-math"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Ofast"
+				},
+				{
+					"fragment" : "-std=c++17"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 6,
+					"define" : "RELEASE"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "UCONFIG_USE_LOCAL"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 8,
+					"path" : "D:/Projects Git/organicmaps"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "D:/Projects Git/organicmaps/3party/icu/."
+				},
+				{
+					"backtrace" : 9,
+					"path" : "D:/Projects Git/organicmaps/3party/icu/icu/icu4c/source/common"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				5,
+				7,
+				8,
+				10,
+				11,
+				14,
+				17,
+				21,
+				22,
+				25,
+				26,
+				29,
+				30,
+				31,
+				32,
+				40,
+				41,
+				43,
+				44,
+				46,
+				50,
+				57,
+				58,
+				59,
+				62,
+				68,
+				69,
+				71,
+				72,
+				76,
+				77,
+				79,
+				83,
+				84,
+				85,
+				86,
+				89,
+				98,
+				101,
+				102,
+				103,
+				105,
+				107,
+				109,
+				110,
+				114,
+				115,
+				116,
+				118,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127,
+				128,
+				129,
+				130,
+				131,
+				132,
+				134,
+				136,
+				138,
+				139,
+				141,
+				142,
+				143,
+				145,
+				147,
+				148,
+				149,
+				152,
+				153,
+				154,
+				155,
+				157,
+				158,
+				161,
+				163,
+				165,
+				166
+			],
+			"sysroot" : 
+			{
+				"path" : "C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot"
+			}
+		}
+	],
+	"id" : "icuuc::@8f7e0e3fcd7b0f7ba9cb",
+	"name" : "icuuc",
+	"nameOnDisk" : "libicuuc.a",
+	"paths" : 
+	{
+		"build" : "3party/icu",
+		"source" : "3party/icu"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0,
+				3,
+				4,
+				6,
+				9,
+				12,
+				13,
+				15,
+				16,
+				18,
+				19,
+				20,
+				23,
+				24,
+				27,
+				28,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				42,
+				45,
+				47,
+				48,
+				49,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				60,
+				61,
+				63,
+				64,
+				65,
+				66,
+				67,
+				70,
+				73,
+				74,
+				75,
+				78,
+				80,
+				81,
+				82,
+				87,
+				88,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				99,
+				100,
+				104,
+				106,
+				108,
+				111,
+				112,
+				113,
+				117,
+				119,
+				133,
+				135,
+				137,
+				140,
+				144,
+				146,
+				150,
+				151,
+				156,
+				159,
+				160,
+				162,
+				164,
+				167,
+				168
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				5,
+				7,
+				8,
+				10,
+				11,
+				14,
+				17,
+				21,
+				22,
+				25,
+				26,
+				29,
+				30,
+				31,
+				32,
+				40,
+				41,
+				43,
+				44,
+				46,
+				50,
+				57,
+				58,
+				59,
+				62,
+				68,
+				69,
+				71,
+				72,
+				76,
+				77,
+				79,
+				83,
+				84,
+				85,
+				86,
+				89,
+				98,
+				101,
+				102,
+				103,
+				105,
+				107,
+				109,
+				110,
+				114,
+				115,
+				116,
+				118,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127,
+				128,
+				129,
+				130,
+				131,
+				132,
+				134,
+				136,
+				138,
+				139,
+				141,
+				142,
+				143,
+				145,
+				147,
+				148,
+				149,
+				152,
+				153,
+				154,
+				155,
+				157,
+				158,
+				161,
+				163,
+				165,
+				166
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/uconfig_local.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/appendable.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/bmpset.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/bmpset.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/brkeng.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/bytesinkutil.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/bytesinkutil.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/bytestream.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/bytestrie.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/capi_helper.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/characterproperties.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/charstr.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/charstr.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/charstrmap.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/cmemory.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/cmemory.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/cstr.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/cstring.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/cstring.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/cwchar.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/dictionarydata.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/edits.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/emojiprops.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/hash.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/icuplugimp.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/loadednormalizer2impl.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/localebuilder.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/localsvc.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/locbased.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/locid.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/loclikely.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/locmap.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/locutil.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/locutil.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/lsr.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/messageimpl.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/msvcres.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/mutex.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/norm2_nfc_data.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/norm2allmodes.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/normalizer2.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/normalizer2impl.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/normalizer2impl.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/parsepos.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/patternprops.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/patternprops.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/propname.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/propname.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/propname_data.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/punycode.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/putil.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/putilimp.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/rbbirb.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/rbbirpt.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/rbbiscan.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/rbbisetb.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/rbbitblb.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/resbund.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/resbund_cnv.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/resource.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/resource.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/restrace.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/ruleiter.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/ruleiter.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/serv.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/sharedobject.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/sprpimpl.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/static_unicode_sets.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/stringpiece.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/uarrsort.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/uarrsort.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/ubidi.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/ubidi_props.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/ubidi_props.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/ubidi_props_data.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/ubidiimp.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/ubidiln.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/ubidiwrt.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/ubrkimpl.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/ucase.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/ucase.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/ucase_props_data.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/ucasemap_imp.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/uchar.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/ucharstrie.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/ucharstrieiterator.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/ucln_cmn.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/ucln_cmn.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/ucln_imp.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/ucmndata.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/ucmndata.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/ucnv_bld.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/ucnv_cnv.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/ucnv_ext.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/ucnv_imp.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/ucnv_io.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/ucnvmbcs.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/ucol_data.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/ucptrie.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/ucptrie_impl.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/ucurrimp.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/udata.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/udatamem.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/udataswp.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/udataswp.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/uenum.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/uenumimp.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/uhash.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/uhash.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/uhash_us.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/uinvchar.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/uinvchar.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/ulayout_props.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/ulist.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/uloc.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/uloc_keytype.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/uloc_tag.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/ulocimp.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/umapfile.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/umapfile.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/umath.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/umutablecptrie.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/umutex.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/unames.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/unifilt.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/unifunct.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/uniset.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/uniset_closure.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/uniset_props.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/unisetspan.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/unistr.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/unistr_case.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/unistr_case_locale.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/unistrappender.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/uobject.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/uposixdefs.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/uprops.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/uprops.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/uresbund.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/uresdata.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/uresimp.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/uscript.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/uscript_props.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/uset.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/uset_imp.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/ushape.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/ustr_cnv.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/ustrcase.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/ustrcase_locale.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/ustrenum.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/ustrenum.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/ustrfmt.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/ustring.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/ustrtrns.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/utf_impl.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/util.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/util.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/util_props.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/utrace.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/utracimp.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/utrie.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/utrie2.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/utrie2_impl.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/utrie_swap.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/utypeinfo.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/uvector.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/common/uvectr32.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/uvectr64.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/common/wintz.h",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

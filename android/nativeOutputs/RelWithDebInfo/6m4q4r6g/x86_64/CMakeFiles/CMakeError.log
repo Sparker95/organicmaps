@@ -1,0 +1,730 @@
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\spark\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_50531 && [1/2] Building C object CMakeFiles/cmTC_50531.dir/src.c.o
+D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CMakeTmp/src.c:13:3: warning: implicit declaration of function 'pthread_cancel' is invalid in C99 [-Wimplicit-function-declaration]
+  pthread_cancel(thread);
+  ^
+1 warning generated.
+[2/2] Linking C executable cmTC_50531
+FAILED: cmTC_50531 
+cmd.exe /C "cd . && C:\Users\spark\AppData\Local\Android\Sdk\ndk\25.2.9519653\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=x86_64-none-linux-android21 --sysroot=C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fno-function-sections -fno-data-sections -Wno-extern-c-compat -fuse-ld=lld CMakeFiles/cmTC_50531.dir/src.c.o -o cmTC_50531  -latomic -lm && cd ."
+ld.lld: error: undefined symbol: pthread_cancel
+>>> referenced by src.c:13
+>>>               CMakeFiles/cmTC_50531.dir/src.c.o:(main)
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\spark\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_5d48b && [1/2] Building C object CMakeFiles/cmTC_5d48b.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_5d48b
+FAILED: cmTC_5d48b 
+cmd.exe /C "cd . && C:\Users\spark\AppData\Local\Android\Sdk\ndk\25.2.9519653\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=x86_64-none-linux-android21 --sysroot=C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fno-function-sections -fno-data-sections -Wno-extern-c-compat -DCHECK_FUNCTION_EXISTS=pthread_create -fuse-ld=lld CMakeFiles/cmTC_5d48b.dir/CheckFunctionExists.c.o -o cmTC_5d48b  -lpthreads  -latomic -lm && cd ."
+ld.lld: error: unable to find library -lpthreads
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function pthread_create exists in the pthread failed with the following output:
+Change Dir: D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\spark\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_a0664 && [1/2] Building C object CMakeFiles/cmTC_a0664.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_a0664
+FAILED: cmTC_a0664 
+cmd.exe /C "cd . && C:\Users\spark\AppData\Local\Android\Sdk\ndk\25.2.9519653\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=x86_64-none-linux-android21 --sysroot=C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fno-function-sections -fno-data-sections -Wno-extern-c-compat -DCHECK_FUNCTION_EXISTS=pthread_create -fuse-ld=lld CMakeFiles/cmTC_a0664.dir/CheckFunctionExists.c.o -o cmTC_a0664  -lpthread  -latomic -lm && cd ."
+ld.lld: error: unable to find library -lpthread
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the getrandom exist failed with the following output:
+Change Dir: D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\spark\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_7e070 && [1/2] Building C object CMakeFiles/cmTC_7e070.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_7e070.dir/CheckSymbolExists.c.o 
+C:\Users\spark\AppData\Local\Android\Sdk\ndk\25.2.9519653\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=x86_64-none-linux-android21 --sysroot=C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fno-function-sections -fno-data-sections -Wno-extern-c-compat  -fPIE -MD -MT CMakeFiles/cmTC_7e070.dir/CheckSymbolExists.c.o -MF CMakeFiles\cmTC_7e070.dir\CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_7e070.dir/CheckSymbolExists.c.o -c "D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: use of undeclared identifier 'getrandom'
+  return ((int*)(&getrandom))[argc];
+                  ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+File D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/random.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getrandom
+  return ((int*)(&getrandom))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the off_t exist failed with the following output:
+Change Dir: D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\spark\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_9fbf3 && [1/2] Building C object CMakeFiles/cmTC_9fbf3.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_9fbf3.dir/CheckSymbolExists.c.o 
+C:\Users\spark\AppData\Local\Android\Sdk\ndk\25.2.9519653\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=x86_64-none-linux-android21 --sysroot=C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fno-function-sections -fno-data-sections -Wno-extern-c-compat  -fPIE -MD -MT CMakeFiles/cmTC_9fbf3.dir/CheckSymbolExists.c.o -MF CMakeFiles\cmTC_9fbf3.dir\CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_9fbf3.dir/CheckSymbolExists.c.o -c "D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: unexpected type name 'off_t': expected expression
+  return ((int*)(&off_t))[argc];
+                  ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+File D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef off_t
+  return ((int*)(&off_t))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the size_t exist failed with the following output:
+Change Dir: D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\spark\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_c8c6a && [1/2] Building C object CMakeFiles/cmTC_c8c6a.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_c8c6a.dir/CheckSymbolExists.c.o 
+C:\Users\spark\AppData\Local\Android\Sdk\ndk\25.2.9519653\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=x86_64-none-linux-android21 --sysroot=C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fno-function-sections -fno-data-sections -Wno-extern-c-compat  -fPIE -MD -MT CMakeFiles/cmTC_c8c6a.dir/CheckSymbolExists.c.o -MF CMakeFiles\cmTC_c8c6a.dir\CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_c8c6a.dir/CheckSymbolExists.c.o -c "D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: unexpected type name 'size_t': expected expression
+  return ((int*)(&size_t))[argc];
+                  ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+File D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef size_t
+  return ((int*)(&size_t))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test HAS_NO_FORMAT_TRUNCATION failed with the following output:
+Change Dir: D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\spark\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_360b3 && [1/2] Building C object CMakeFiles/cmTC_360b3.dir/src.c.o
+warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+1 warning generated.
+[2/2] Linking C executable cmTC_360b3
+
+
+Source file was:
+int main(void) { return 0; }
+Determining size of __int64 failed with the following output:
+Change Dir: D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\spark\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_00c08 && [1/2] Building C object CMakeFiles/cmTC_00c08.dir/__INT64.c.o
+FAILED: CMakeFiles/cmTC_00c08.dir/__INT64.c.o 
+C:\Users\spark\AppData\Local\Android\Sdk\ndk\25.2.9519653\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=x86_64-none-linux-android21 --sysroot=C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fno-function-sections -fno-data-sections -Wno-extern-c-compat  -fPIE -MD -MT CMakeFiles/cmTC_00c08.dir/__INT64.c.o -MF CMakeFiles\cmTC_00c08.dir\__INT64.c.o.d -o CMakeFiles/cmTC_00c08.dir/__INT64.c.o -c "D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CheckTypeSize/__INT64.c"
+D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CheckTypeSize/__INT64.c:29:12: error: use of undeclared identifier '__int64'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CheckTypeSize/__INT64.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(__int64))
+                     ^
+D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CheckTypeSize/__INT64.c:30:12: error: use of undeclared identifier '__int64'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CheckTypeSize/__INT64.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(__int64))
+                     ^
+D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CheckTypeSize/__INT64.c:31:12: error: use of undeclared identifier '__int64'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CheckTypeSize/__INT64.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(__int64))
+                     ^
+D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CheckTypeSize/__INT64.c:32:12: error: use of undeclared identifier '__int64'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CheckTypeSize/__INT64.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(__int64))
+                     ^
+D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CheckTypeSize/__INT64.c:33:12: error: use of undeclared identifier '__int64'
+  ('0' +  (SIZE    % 10)),
+           ^
+D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CheckTypeSize/__INT64.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(__int64))
+                     ^
+5 errors generated.
+ninja: build stopped: subcommand failed.
+
+
+D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CheckTypeSize/__INT64.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(__int64))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of __int32 failed with the following output:
+Change Dir: D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\spark\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_88c6e && [1/2] Building C object CMakeFiles/cmTC_88c6e.dir/__INT32.c.o
+FAILED: CMakeFiles/cmTC_88c6e.dir/__INT32.c.o 
+C:\Users\spark\AppData\Local\Android\Sdk\ndk\25.2.9519653\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=x86_64-none-linux-android21 --sysroot=C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fno-function-sections -fno-data-sections -Wno-extern-c-compat  -fPIE -MD -MT CMakeFiles/cmTC_88c6e.dir/__INT32.c.o -MF CMakeFiles\cmTC_88c6e.dir\__INT32.c.o.d -o CMakeFiles/cmTC_88c6e.dir/__INT32.c.o -c "D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CheckTypeSize/__INT32.c"
+D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CheckTypeSize/__INT32.c:29:12: error: use of undeclared identifier '__int32'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CheckTypeSize/__INT32.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(__int32))
+                     ^
+D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CheckTypeSize/__INT32.c:30:12: error: use of undeclared identifier '__int32'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CheckTypeSize/__INT32.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(__int32))
+                     ^
+D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CheckTypeSize/__INT32.c:31:12: error: use of undeclared identifier '__int32'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CheckTypeSize/__INT32.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(__int32))
+                     ^
+D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CheckTypeSize/__INT32.c:32:12: error: use of undeclared identifier '__int32'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CheckTypeSize/__INT32.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(__int32))
+                     ^
+D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CheckTypeSize/__INT32.c:33:12: error: use of undeclared identifier '__int32'
+  ('0' +  (SIZE    % 10)),
+           ^
+D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CheckTypeSize/__INT32.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(__int32))
+                     ^
+5 errors generated.
+ninja: build stopped: subcommand failed.
+
+
+D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CheckTypeSize/__INT32.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(__int32))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of __uint32 failed with the following output:
+Change Dir: D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\spark\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_e1034 && [1/2] Building C object CMakeFiles/cmTC_e1034.dir/__UINT32.c.o
+FAILED: CMakeFiles/cmTC_e1034.dir/__UINT32.c.o 
+C:\Users\spark\AppData\Local\Android\Sdk\ndk\25.2.9519653\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=x86_64-none-linux-android21 --sysroot=C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fno-function-sections -fno-data-sections -Wno-extern-c-compat  -fPIE -MD -MT CMakeFiles/cmTC_e1034.dir/__UINT32.c.o -MF CMakeFiles\cmTC_e1034.dir\__UINT32.c.o.d -o CMakeFiles/cmTC_e1034.dir/__UINT32.c.o -c "D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CheckTypeSize/__UINT32.c"
+D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CheckTypeSize/__UINT32.c:29:12: error: use of undeclared identifier '__uint32'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CheckTypeSize/__UINT32.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(__uint32))
+                     ^
+D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CheckTypeSize/__UINT32.c:30:12: error: use of undeclared identifier '__uint32'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CheckTypeSize/__UINT32.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(__uint32))
+                     ^
+D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CheckTypeSize/__UINT32.c:31:12: error: use of undeclared identifier '__uint32'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CheckTypeSize/__UINT32.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(__uint32))
+                     ^
+D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CheckTypeSize/__UINT32.c:32:12: error: use of undeclared identifier '__uint32'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CheckTypeSize/__UINT32.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(__uint32))
+                     ^
+D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CheckTypeSize/__UINT32.c:33:12: error: use of undeclared identifier '__uint32'
+  ('0' +  (SIZE    % 10)),
+           ^
+D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CheckTypeSize/__UINT32.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(__uint32))
+                     ^
+5 errors generated.
+ninja: build stopped: subcommand failed.
+
+
+D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CheckTypeSize/__UINT32.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(__uint32))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of __uint16 failed with the following output:
+Change Dir: D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\spark\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_5f547 && [1/2] Building C object CMakeFiles/cmTC_5f547.dir/__UINT16.c.o
+FAILED: CMakeFiles/cmTC_5f547.dir/__UINT16.c.o 
+C:\Users\spark\AppData\Local\Android\Sdk\ndk\25.2.9519653\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=x86_64-none-linux-android21 --sysroot=C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fno-function-sections -fno-data-sections -Wno-extern-c-compat  -fPIE -MD -MT CMakeFiles/cmTC_5f547.dir/__UINT16.c.o -MF CMakeFiles\cmTC_5f547.dir\__UINT16.c.o.d -o CMakeFiles/cmTC_5f547.dir/__UINT16.c.o -c "D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CheckTypeSize/__UINT16.c"
+D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CheckTypeSize/__UINT16.c:29:12: error: use of undeclared identifier '__uint16'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CheckTypeSize/__UINT16.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(__uint16))
+                     ^
+D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CheckTypeSize/__UINT16.c:30:12: error: use of undeclared identifier '__uint16'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CheckTypeSize/__UINT16.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(__uint16))
+                     ^
+D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CheckTypeSize/__UINT16.c:31:12: error: use of undeclared identifier '__uint16'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CheckTypeSize/__UINT16.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(__uint16))
+                     ^
+D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CheckTypeSize/__UINT16.c:32:12: error: use of undeclared identifier '__uint16'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CheckTypeSize/__UINT16.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(__uint16))
+                     ^
+D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CheckTypeSize/__UINT16.c:33:12: error: use of undeclared identifier '__uint16'
+  ('0' +  (SIZE    % 10)),
+           ^
+D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CheckTypeSize/__UINT16.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(__uint16))
+                     ^
+5 errors generated.
+ninja: build stopped: subcommand failed.
+
+
+D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CheckTypeSize/__UINT16.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(__uint16))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of __uint8 failed with the following output:
+Change Dir: D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\spark\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_a5edd && [1/2] Building C object CMakeFiles/cmTC_a5edd.dir/__UINT8.c.o
+FAILED: CMakeFiles/cmTC_a5edd.dir/__UINT8.c.o 
+C:\Users\spark\AppData\Local\Android\Sdk\ndk\25.2.9519653\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=x86_64-none-linux-android21 --sysroot=C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fno-function-sections -fno-data-sections -Wno-extern-c-compat  -fPIE -MD -MT CMakeFiles/cmTC_a5edd.dir/__UINT8.c.o -MF CMakeFiles\cmTC_a5edd.dir\__UINT8.c.o.d -o CMakeFiles/cmTC_a5edd.dir/__UINT8.c.o -c "D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CheckTypeSize/__UINT8.c"
+D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CheckTypeSize/__UINT8.c:29:12: error: use of undeclared identifier '__uint8'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CheckTypeSize/__UINT8.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(__uint8))
+                     ^
+D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CheckTypeSize/__UINT8.c:30:12: error: use of undeclared identifier '__uint8'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CheckTypeSize/__UINT8.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(__uint8))
+                     ^
+D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CheckTypeSize/__UINT8.c:31:12: error: use of undeclared identifier '__uint8'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CheckTypeSize/__UINT8.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(__uint8))
+                     ^
+D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CheckTypeSize/__UINT8.c:32:12: error: use of undeclared identifier '__uint8'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CheckTypeSize/__UINT8.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(__uint8))
+                     ^
+D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CheckTypeSize/__UINT8.c:33:12: error: use of undeclared identifier '__uint8'
+  ('0' +  (SIZE    % 10)),
+           ^
+D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CheckTypeSize/__UINT8.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(__uint8))
+                     ^
+5 errors generated.
+ninja: build stopped: subcommand failed.
+
+
+D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CheckTypeSize/__UINT8.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(__uint8))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of SSIZE_T failed with the following output:
+Change Dir: D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\spark\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_1c89b && [1/2] Building C object CMakeFiles/cmTC_1c89b.dir/UPPERCASE_SSIZE_T.c.o
+FAILED: CMakeFiles/cmTC_1c89b.dir/UPPERCASE_SSIZE_T.c.o 
+C:\Users\spark\AppData\Local\Android\Sdk\ndk\25.2.9519653\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=x86_64-none-linux-android21 --sysroot=C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fno-function-sections -fno-data-sections -Wno-extern-c-compat  -fPIE -MD -MT CMakeFiles/cmTC_1c89b.dir/UPPERCASE_SSIZE_T.c.o -MF CMakeFiles\cmTC_1c89b.dir\UPPERCASE_SSIZE_T.c.o.d -o CMakeFiles/cmTC_1c89b.dir/UPPERCASE_SSIZE_T.c.o -c "D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CheckTypeSize/UPPERCASE_SSIZE_T.c"
+D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CheckTypeSize/UPPERCASE_SSIZE_T.c:29:12: error: use of undeclared identifier 'SSIZE_T'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CheckTypeSize/UPPERCASE_SSIZE_T.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(SSIZE_T))
+                     ^
+D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CheckTypeSize/UPPERCASE_SSIZE_T.c:30:12: error: use of undeclared identifier 'SSIZE_T'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CheckTypeSize/UPPERCASE_SSIZE_T.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(SSIZE_T))
+                     ^
+D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CheckTypeSize/UPPERCASE_SSIZE_T.c:31:12: error: use of undeclared identifier 'SSIZE_T'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CheckTypeSize/UPPERCASE_SSIZE_T.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(SSIZE_T))
+                     ^
+D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CheckTypeSize/UPPERCASE_SSIZE_T.c:32:12: error: use of undeclared identifier 'SSIZE_T'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CheckTypeSize/UPPERCASE_SSIZE_T.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(SSIZE_T))
+                     ^
+D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CheckTypeSize/UPPERCASE_SSIZE_T.c:33:12: error: use of undeclared identifier 'SSIZE_T'
+  ('0' +  (SIZE    % 10)),
+           ^
+D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CheckTypeSize/UPPERCASE_SSIZE_T.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(SSIZE_T))
+                     ^
+5 errors generated.
+ninja: build stopped: subcommand failed.
+
+
+D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CheckTypeSize/UPPERCASE_SSIZE_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(SSIZE_T))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function _strtoi64 exists failed with the following output:
+Change Dir: D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\spark\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe cmTC_3732a && [1/2] Building C object CMakeFiles/cmTC_3732a.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_3732a
+FAILED: cmTC_3732a 
+cmd.exe /C "cd . && C:\Users\spark\AppData\Local\Android\Sdk\ndk\25.2.9519653\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=x86_64-none-linux-android21 --sysroot=C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fno-function-sections -fno-data-sections -Wno-extern-c-compat -DCHECK_FUNCTION_EXISTS=_strtoi64 -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments CMakeFiles/cmTC_3732a.dir/CheckFunctionExists.c.o -o cmTC_3732a  -latomic -lm && cd ."
+ld: error: undefined symbol: _strtoi64
+>>> referenced by CheckFunctionExists.c:17 (C:/Users/spark/AppData/Local/Android/Sdk/cmake/3.22.1/share/cmake-3.22/Modules/CheckFunctionExists.c:17)
+>>>               CMakeFiles/cmTC_3732a.dir/CheckFunctionExists.c.o:(main)
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+

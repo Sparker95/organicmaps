@@ -1,0 +1,260 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "libharfbuzz.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"add_compile_options",
+			"target_compile_options",
+			"target_compile_definitions",
+			"add_definitions",
+			"include_directories",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"3party/harfbuzz/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 7,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 38,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 51,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 107,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 114,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 22,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 113,
+				"parent" : 3
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 256,
+				"parent" : 3
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 9,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -fexceptions -frtti -O2 -g -DNDEBUG -fPIC"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-fcolor-diagnostics"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-ffast-math"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Ofast"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fno-rtti"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fno-exceptions"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fno-threadsafe-statics"
+				},
+				{
+					"fragment" : "-std=c++17"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 8,
+					"define" : "HAVE_ATEXIT"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "HAVE_FREETYPE=1"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "HAVE_GETPAGESIZE"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "HAVE_MMAP"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "HAVE_MPROTECT"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "HAVE_PTHREAD"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "HAVE_SYSCONF"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "HAVE_SYS_MMAN_H"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "HAVE_UNISTD_H"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "RELEASE"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 10,
+					"path" : "D:/Projects Git/organicmaps"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "D:/Projects Git/organicmaps/3party/harfbuzz/harfbuzz/src"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/Projects Git/organicmaps/3party/freetype"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/Projects Git/organicmaps/android/nativeOutputs/RelWithDebInfo/6m4q4r6g/armeabi-v7a/3party/freetype/freetype/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/Projects Git/organicmaps/3party/freetype/freetype/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			],
+			"sysroot" : 
+			{
+				"path" : "C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot"
+			}
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "freetype::@0f29e336c249c80ede9d"
+		}
+	],
+	"id" : "harfbuzz::@56d4677668c020a6400c",
+	"name" : "harfbuzz",
+	"nameOnDisk" : "libharfbuzz.a",
+	"paths" : 
+	{
+		"build" : "3party/harfbuzz",
+		"source" : "3party/harfbuzz"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"path" : "android/nativeOutputs/RelWithDebInfo/6m4q4r6g/armeabi-v7a/3party/harfbuzz/CMakeFiles/harfbuzz.dir/Unity/unity_0_cxx.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/harfbuzz/harfbuzz/src/harfbuzz.cc",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

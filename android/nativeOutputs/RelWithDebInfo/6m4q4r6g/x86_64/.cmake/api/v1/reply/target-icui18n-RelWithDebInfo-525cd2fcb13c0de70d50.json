@@ -1,0 +1,1469 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "libicui18n.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"add_compile_options",
+			"add_definitions",
+			"target_compile_definitions",
+			"include_directories",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"3party/icu/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 187,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 403,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 51,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 107,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 114,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 113,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 393,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 256,
+				"parent" : 3
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 395,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fexceptions -frtti -O2 -g -DNDEBUG -fPIC"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-fcolor-diagnostics"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-ffast-math"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Ofast"
+				},
+				{
+					"fragment" : "-std=c++17"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 7,
+					"define" : "RELEASE"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "UCONFIG_USE_LOCAL"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 9,
+					"path" : "D:/Projects Git/organicmaps"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "D:/Projects Git/organicmaps/3party/icu/."
+				},
+				{
+					"backtrace" : 10,
+					"path" : "D:/Projects Git/organicmaps/3party/icu/icu/icu4c/source/i18n"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "D:/Projects Git/organicmaps/3party/icu/icu/icu4c/source/common"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				6,
+				31,
+				62,
+				69,
+				79,
+				85,
+				87,
+				127,
+				130,
+				132,
+				134,
+				136,
+				138,
+				147,
+				159,
+				161,
+				164,
+				166,
+				168,
+				170,
+				171,
+				173,
+				177,
+				182,
+				184,
+				202
+			],
+			"sysroot" : 
+			{
+				"path" : "C:/Users/spark/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot"
+			}
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "icuuc::@8f7e0e3fcd7b0f7ba9cb"
+		}
+	],
+	"id" : "icui18n::@8f7e0e3fcd7b0f7ba9cb",
+	"name" : "icui18n",
+	"nameOnDisk" : "libicui18n.a",
+	"paths" : 
+	{
+		"build" : "3party/icu",
+		"source" : "3party/icu"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				6,
+				31,
+				62,
+				69,
+				79,
+				85,
+				87,
+				127,
+				130,
+				132,
+				134,
+				136,
+				138,
+				147,
+				159,
+				161,
+				164,
+				166,
+				168,
+				170,
+				171,
+				173,
+				177,
+				182,
+				184,
+				202
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				80,
+				81,
+				82,
+				83,
+				84,
+				86,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				128,
+				129,
+				131,
+				133,
+				135,
+				137,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				148,
+				149,
+				150,
+				151,
+				152,
+				153,
+				154,
+				155,
+				156,
+				157,
+				158,
+				160,
+				162,
+				163,
+				165,
+				167,
+				169,
+				172,
+				174,
+				175,
+				176,
+				178,
+				179,
+				180,
+				181,
+				183,
+				185,
+				186,
+				187,
+				188,
+				189,
+				190,
+				191,
+				192,
+				193,
+				194,
+				195,
+				196,
+				197,
+				198,
+				199,
+				200,
+				201
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/i18n/anytrans.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/anytrans.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/astro.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/bocsu.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/brktrans.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/buddhcal.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/i18n/casetrn.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/casetrn.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/cecal.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/chnsecal.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/collation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/collationbuilder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/collationcompare.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/collationdata.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/collationdatabuilder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/collationdatareader.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/collationdatawriter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/collationfastlatin.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/collationfastlatinbuilder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/collationfcd.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/collationiterator.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/collationkeys.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/collationroot.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/collationrootelements.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/collationruleparser.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/collationsets.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/collationsettings.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/collationtailoring.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/collationweights.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/collunsafe.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/coptccal.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/i18n/cpdtrans.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/cpdtrans.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/csdetect.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/csmatch.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/csr2022.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/csrecog.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/csrmbcs.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/csrsbcs.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/csrucode.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/csrutf8.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/currfmt.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/dangical.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/dayperiodrules.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/decContext.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/decNumber.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/decNumberLocal.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/double-conversion-bignum-dtoa.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/double-conversion-bignum.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/double-conversion-cached-powers.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/double-conversion-diy-fp.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/double-conversion-double-to-string.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/double-conversion-fast-dtoa.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/double-conversion-ieee.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/double-conversion-string-to-double.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/double-conversion-strtod.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/double-conversion-utils.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/double-conversion.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/dt_impl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/dtitv_impl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/dtptngen_impl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/erarules.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/i18n/esctrn.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/esctrn.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/ethpccal.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/fmtableimp.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/formatted_string_builder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/formattedval_impl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/fphdlimp.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/i18n/funcrepl.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/funcrepl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/gregoimp.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/hebrwcal.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/indiancal.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/inputext.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/islamcal.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/japancal.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/measunit_impl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/msgfmt_impl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/i18n/name2uni.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/name2uni.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/nfrlist.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/nfrs.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/nfrule.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/nfsubs.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/i18n/nortrans.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/nortrans.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/i18n/nultrans.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/nultrans.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/number_affixutils.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/number_asformat.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/number_compact.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/number_currencysymbols.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/number_decimalquantity.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/number_decimfmtprops.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/number_decnum.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/number_formatimpl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/number_longnames.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/number_mapper.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/number_microprops.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/number_modifiers.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/number_multiplier.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/number_patternmodifier.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/number_patternstring.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/number_roundingutils.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/number_scientific.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/number_skeletons.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/number_types.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/number_usageprefs.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/number_utils.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/number_utypes.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/numparse_affixes.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/numparse_compositions.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/numparse_currency.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/numparse_decimal.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/numparse_impl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/numparse_scientific.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/numparse_symbols.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/numparse_types.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/numparse_utils.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/numparse_validators.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/numrange_impl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/numsys_impl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/olsontz.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/persncal.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/pluralranges.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/plurrule_impl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/i18n/quant.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/quant.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/quantityformatter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/i18n/rbt.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/rbt.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/i18n/rbt_data.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/rbt_data.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/i18n/rbt_pars.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/rbt_pars.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/i18n/rbt_rule.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/rbt_rule.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/i18n/rbt_set.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/rbt_set.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/regexcmp.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/regexcst.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/regeximp.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/regexst.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/regextxt.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/region_impl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/reldtfmt.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/i18n/remtrans.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/remtrans.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/scriptset.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/selfmtimpl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/sharedbreakiterator.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/sharedcalendar.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/shareddateformatsymbols.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/sharednumberformat.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/sharedpluralrules.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/smpdtfst.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/standardplural.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/string_segment.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/i18n/strmatch.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/strmatch.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/i18n/strrepl.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/strrepl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/taiwncal.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/i18n/titletrn.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/titletrn.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/i18n/tolowtrn.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/tolowtrn.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/i18n/toupptrn.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/toupptrn.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/i18n/translit.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/i18n/transreg.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/transreg.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/i18n/tridpars.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/tridpars.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/tzgnames.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/tznames_impl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/i18n/ucln_in.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/ucln_in.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/ucol_imp.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/uitercollationiterator.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/umsg_imp.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/i18n/unesctrn.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/unesctrn.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/i18n/uni2name.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/uni2name.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/units_complexconverter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/units_converter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/units_data.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/units_router.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/uspoof_conf.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/uspoof_impl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/usrchimp.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/utf16collationiterator.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/utf8collationiterator.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/vzone.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/windtfmt.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/winnmfmt.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/wintzimpl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/zonemeta.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/zrule.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "3party/icu/icu/icu4c/source/i18n/ztrans.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3party/icu/icu/icu4c/source/stubdata/stubdata.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}
